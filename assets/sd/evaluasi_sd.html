@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluasi SD - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen page-sd-evaluasi">
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-xl md:text-2xl font-hindu font-bold">Evaluasi SD</h1>
+        </div>
+        <ul class="hidden md:flex space-x-4 text-sm">
+          <li>
+            <a
+              href="materi_sd.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="quiz_sd.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >Quiz</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- awal video -->
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video evaluasi TK.
+        </video>
+      </div>
+    </div>
+    <!-- akhir video -->
+
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div
+        class="max-w-3xl mx-auto bg-white/90 p-8 md:p-12 rounded-3xl shadow-2xl"
+      >
+        <h1
+          class="text-4xl md:text-5xl font-hindu font-black text-blue-600 text-center mb-8"
+        >
+          Evaluasi SD
+        </h1>
+        <!-- <p class="text-xl font-cartoon text-center mb-8 text-gray-700">
+          Jawablah dengan singkat tentang warna, arah, dewata, dan nilai baik
+          dalam Dewata Nawa Sangga.
+        </p> -->
+
+        <form id="evalForm" class="space-y-8">
+          <div class="p-6 bg-blue-100 rounded-2xl border-4 border-blue-300">
+            <h3 class="text-2xl font-hindu font-bold mb-4">
+              1. Tunjukkan/ sebutkan nama-nama arah ,mata angin …. !
+            </h3>
+            <textarea
+              name="q1"
+              class="w-full p-4 border-2 border-blue-400 rounded-xl font-cartoon text-lg"
+              rows="4"
+              placeholder="Jawab di sini"
+            ></textarea>
+            <h3 class="text-3xl text-center"><br><br><strong>
+              "Terimakasih Teman-Teman dan Sahabat Baikku"
+            </strong></h3>
+            <!-- <div class="card-video">
+              <div class="video-frame p-2">
+                <video
+                  autoplay
+                  loop
+                  controls
+                  class="w-full h-32 rounded-2xl object-cover"
+                >
+                  <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+                  Video evaluasi SD.
+                </video>
+              </div>
+            </div> -->
+          </div>
+          <!-- <div class="p-6 bg-blue-100 rounded-2xl border-4 border-blue-300">
+            <h3 class="text-2xl font-hindu font-bold mb-4">
+              2. Mengapa warna putih dapat dihubungkan dengan kesucian?
+            </h3>
+            <textarea
+              class="w-full p-4 border-2 border-blue-400 rounded-xl font-cartoon text-lg"
+              rows="4"
+              placeholder="Tuliskan pendapatmu..."
+            ></textarea>
+            <div class="card-video">
+              <div class="video-frame p-2">
+                <video
+                  autoplay
+                  loop
+                  controls
+                  class="w-full h-32 rounded-2xl object-cover"
+                >
+                  <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+                  Video evaluasi SD.
+                </video>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="p-6 bg-blue-100 rounded-2xl border-4 border-blue-300">
+            <h3 class="text-2xl font-hindu font-bold mb-4">
+              3. Nilai apa yang bisa kamu teladani dari Yama sebagai simbol
+              keadilan?
+            </h3>
+            <textarea
+              class="w-full p-4 border-2 border-blue-400 rounded-xl font-cartoon text-lg"
+              rows="4"
+              placeholder="Contoh: jujur, bertanggung jawab..."
+            ></textarea>
+            <div class="card-video">
+              <div class="video-frame p-2">
+                <video
+                  autoplay
+                  loop
+                  controls
+                  class="w-full h-32 rounded-2xl object-cover"
+                >
+                  <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+                  Video evaluasi SD.
+                </video>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="p-6 bg-blue-100 rounded-2xl border-4 border-blue-300">
+            <h3 class="text-2xl font-hindu font-bold mb-4">
+              4. Pasangkan jumlah penjaga Nawa Sangga.
+            </h3>
+            <label
+              class="block p-4 border-2 border-blue-300 rounded-xl cursor-pointer hover:bg-blue-200"
+              ><input type="radio" name="q4" value="a" class="mr-4 w-6 h-6" />
+              Lima penjaga</label
+            >
+            <label
+              class="block p-4 mt-3 border-2 border-blue-300 rounded-xl cursor-pointer hover:bg-blue-200"
+              ><input type="radio" name="q4" value="b" class="mr-4 w-6 h-6" />
+              Sembilan penjaga</label
+            >
+            <div class="card-video">
+              <div class="video-frame p-2">
+                <video
+                  autoplay
+                  loop
+                  controls
+                  class="w-full h-32 rounded-2xl object-cover"
+                >
+                  <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+                  Video evaluasi SD.
+                </video>
+              </div>
+            </div>
+          </div> -->
+          <button
+            type="submit"
+            class="w-full bg-gradient-to-r from-blue-500 to-blue-400 text-white py-6 rounded-3xl text-3xl font-hindu font-bold btn-cartoon shadow-2xl"
+          >
+            Kirim Evaluasi
+          </button>
+        </form>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+          <a
+            href="materi_sd.html"
+            class="bg-gradient-to-r from-green-500 to-green-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl text-center"
+            >Materi &#128221;</a
+          >
+          <a
+            href="quiz_sd.html"
+            class="bg-gradient-to-r from-emerald-500 to-emerald-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl text-center"
+            >Quiz &#127922;</a
+          >
+        </div>
+
+        <div id="result" class="result">
+          <div class="text-6xl mb-4" id="resultIcon">&#11088;</div>
+          <h2 class="text-3xl font-hindu mb-4 text-blue-600" id="resultTitle">Terima kasih!</h2>
+          <p class="text-xl font-cartoon mb-8" id="resultText">
+            Evaluasimu sudah tersimpan di halaman ini. Terus belajar dengan hati
+            gembira.
+          </p>
+          <button
+            data-close-result
+            class="bg-blue-500 text-white px-8 py-4 rounded-2xl text-xl font-hindu btn-cartoon"
+          >
+            Tutup
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon">
+        Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved |
+        <a href="materi_sd.html" class="underline">Kembali ke Materi</a>
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head/Face -->
+  <circle cx="150" cy="120" r="60" fill="#FFD700" stroke="#CC0000" stroke-width="3"/>
+  
+  <!-- Ears -->
+  <circle cx="110" cy="80" r="25" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <circle cx="190" cy="80" r="25" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <circle cx="110" cy="80" r="15" fill="#FF9933"/>
+  <circle cx="190" cy="80" r="15" fill="#FF9933"/>
+  
+  <!-- Elephant Trunk (curved) -->
+  <path d="M 140 150 Q 120 180 130 220" fill="none" stroke="#FF9933" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 145 150 Q 125 185 135 225" fill="none" stroke="#FFD700" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Eyes -->
+  <circle cx="130" cy="110" r="8" fill="#000"/>
+  <circle cx="170" cy="110" r="8" fill="#000"/>
+  <circle cx="132" cy="108" r="3" fill="#FFF"/>
+  <circle cx="172" cy="108" r="3" fill="#FFF"/>
+  
+  <!-- Smile -->
+  <path d="M 130 130 Q 150 140 170 130" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Snout -->
+  <circle cx="150" cy="140" r="15" fill="#FFD700" stroke="#CC0000" stroke-width="1"/>
+  <ellipse cx="150" cy="142" rx="4" ry="5" fill="#000"/>
+  
+  <!-- Tusks -->
+  <path d="M 140 145 Q 130 160 135 175" fill="none" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 160 145 Q 170 160 165 175" fill="none" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Crown (Hindu symbol) -->
+  <path d="M 110 50 L 120 30 L 150 20 L 180 30 L 190 50" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <circle cx="150" cy="28" r="8" fill="#FF9933"/>
+  
+  <!-- Body -->
+  <rect x="110" y="170" width="80" height="80" rx="20" fill="#FF9933" stroke="#CC0000" stroke-width="2"/>
+  
+  <!-- Arms -->
+  <ellipse cx="90" cy="200" rx="20" ry="40" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <ellipse cx="210" cy="200" rx="20" ry="40" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  
+  <!-- Hands -->
+  <circle cx="85" cy="240" r="15" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <circle cx="215" cy="240" r="15" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  
+  <!-- Fingers -->
+  <circle cx="75" cy="235" r="4" fill="#CC0000"/>
+  <circle cx="78" cy="248" r="4" fill="#CC0000"/>
+  <circle cx="225" cy="235" r="4" fill="#CC0000"/>
+  <circle cx="222" cy="248" r="4" fill="#CC0000"/>
+  
+  <!-- Belly mark (Om symbol) -->
+  <text x="150" y="225" font-size="30" text-anchor="middle" fill="#CC0000" font-weight="bold">🕉️</text>
+  
+  <!-- Legs -->
+  <rect x="120" y="245" width="20" height="60" rx="10" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <rect x="160" y="245" width="20" height="60" rx="10" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  
+  <!-- Feet -->
+  <ellipse cx="130" cy="310" rx="15" ry="20" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  <ellipse cx="170" cy="310" rx="15" ry="20" fill="#FFD700" stroke="#CC0000" stroke-width="2"/>
+  
+  <!-- Happy blush -->
+  <ellipse cx="95" cy="125" rx="15" ry="10" fill="#FF69B4" opacity="0.6"/>
+  <ellipse cx="205" cy="125" rx="15" ry="10" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="100" cy="190" r="4" fill="#CC0000"/>
+  <circle cx="200" cy="190" r="4" fill="#CC0000"/>
+  <circle cx="150" cy="300" r="3" fill="#FF9933"/>
+</svg>

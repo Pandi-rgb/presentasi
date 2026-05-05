@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doa - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen text-gray-800 page-materi-doa">
+    <!-- Navbar same -->
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../../assets/lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-2xl md:text-3xl font-hindu font-bold">
+            📚 Belajar Hindu Anak
+          </h1>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+          <li>
+            <a
+              href="../../index.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >🏠 Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="../navbar/profile.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >👥 Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="../navbar/materi.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-lotusPink font-bold hover:bg-gold"
+              >📖 Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="../navbar/penutup.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >✅ Penutup</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Awal Video -->
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video materi pembelajaran.
+        </video>
+      </div>
+    </div>
+    <!-- Akhir Video -->
+    <!-- Content -->
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div class="max-w-4xl mx-auto">
+        <h1
+          class="text-4xl md:text-6xl font-hindu font-black text-white drop-shadow-2xl text-center mb-12"
+        >
+          Doa
+        </h1>
+        <div class="bg-white/80 p-12 rounded-3xl shadow-2xl mb-12">
+          <div class="bg-yellow-100 p-8 rounded-2xl mb-8">
+            <p
+              class="text-2xl font-hindu text-center font-bold text-saffron mb-6"
+            >
+              Om Swastyastu
+            </p>
+            <p
+              class="text-xl font-cartoon text-gray-800 text-center leading-relaxed"
+            >
+              "Semoga kita selamat dan senantiasa dalam lindungan Ida Sanghyang
+              Widhi Wasa"
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-white/80 p-12 rounded-3xl shadow-2xl mb-12">
+          <div class="bg-pink-100 p-8 rounded-2xl mb-8">
+            <p class="text-lg font-cartoon text-center mb-6 text-gray-800">
+              Anak-anak sekalian, sebelum belajar marilah kita lantunkan doa
+              Mantram Guru:
+            </p>
+            <p
+              class="text-xl font-hindu text-center font-bold text-hinduRed mb-6 italic"
+            >
+              "Om Gurur brahma gurur visnu gururdeva mahesvara<br />
+              gurur saksat Parambrahma Tasmai Sri Gurave namah"
+            </p>
+          </div>
+          <div class="bg-orange-50 p-8 rounded-2xl">
+            <h3 class="text-2xl font-hindu text-center mb-4 text-saffron">
+              Arti Doa:
+            </h3>
+            <p class="text-lg font-cartoon text-gray-800 leading-relaxed mb-4">
+              🙏 Mantram ini diucapkan sebagai bentuk ucapan terima kasih kepada
+              guru atas bimbingannya.
+            </p>
+            <p class="text-lg font-cartoon text-gray-800 leading-relaxed">
+              🌟 Mantram ini diucapkan sebelum belajar agar Sanghyang Widhi
+              sebagai guru semesta memberikan bimbingan kepada kita semua.
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <a
+            href="../materi/pilihan_materi.html"
+            class="bg-gradient-to-r from-lotusPink to-gold text-white px-12 py-6 rounded-3xl text-3xl font-hindu font-bold btn-cartoon shadow-2xl hover:shadow-gold"
+            >Pilih Materi →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon">
+        Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved |
+        <a href="../navbar/materi.html">← Materi</a>
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>

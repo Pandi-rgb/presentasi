@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Belajar Agama Hindu untuk Anak</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              saffron: "#FF9933",
+              gold: "#FFD700",
+              hinduRed: "#CC0000",
+              lotusPink: "#FF69B4",
+            },
+            fontFamily: {
+              hindu: ["Baloo Bhai 2", "cursive"],
+              cartoon: ["Comic Neue", "cursive"],
+            },
+            animation: {
+              "bounce-slow": "bounce 2s infinite",
+              glow: "glow 2s ease-in-out infinite alternate",
+            },
+            keyframes: {
+              glow: {
+                "0%": { boxShadow: "0 0 5px #FFD700" },
+                "100%": { boxShadow: "0 0 20px #FFD700, 0 0 30px #FF9933" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "cartoon", sans-serif;
+        background: linear-gradient(
+          135deg,
+          #ff9933 0%,
+          #ffd700 50%,
+          #fff8dc 100%
+        );
+      }
+      .hindu-nav {
+        background: linear-gradient(90deg, #cc0000, #ff9933, #ffd700);
+      }
+      .btn-cartoon {
+        transition: all 0.3s;
+        transform: scale(1);
+      }
+      .btn-cartoon:hover {
+        transform: scale(1.1) rotate(5deg);
+        animation: bounce-slow 0.6s;
+      }
+      .video-frame {
+        background-image: url("assets/mandala-border.svg");
+        background-size: cover;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+      @media (max-width: 768px) {
+        .video-frame {
+          width: 200px;
+          height: 150px;
+        }
+      }
+      @keyframes spin-slow {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      img.animate-spin-slow {
+        animation: spin-slow 20s linear infinite;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/src/style.css" />
+  </head>
+  <body class="min-h-screen text-gray-800">
+    <!-- Navbar -->
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="assets/lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-2xl md:text-3xl font-hindu font-bold">
+            📚 Belajar Hindu Anak
+          </h1>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+          <li>
+            <a
+              href="index.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >🏠 Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="./assets/navbar/profile.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >👥 Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="./assets/navbar/materi.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-lotusPink font-bold hover:bg-gold"
+              >📖 Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="./assets/navbar/penutup.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >✅ Penutup</a
+            >
+          </li>
+        </ul>
+        <button class="md:hidden text-2xl">☰</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-20 px-4 md:px-8 text-center">
+      <div class="max-w-x5l mx-auto">
+        <img
+          src="assets/cartoon-ganesha.png"
+          alt="Ganesha Cartoon"
+          class="mx-auto w-48 h-48 md:w-64 md:h-64 rounded-full glow mb-8 shadow-2xl"
+          onerror="
+            this.src = 'assets/cartoon-ganesha.svg';
+            this.onerror = () => {
+              this.src = 'assets/lotus-icon.svg';
+            };
+          "
+        />
+        <h1
+          class="text-4xl md:text-6xl font-hindu font-black text-white drop-shadow-2xl mb-6"
+        >
+          Om Swastyastu 🙏
+        </h1>
+        <p
+          class="text-xl md:text-2xl font-cartoon text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed"
+        >
+          Selamat datang di Aplikasi Media Pembelajaran Interaktif Agama Hindu.
+          <br />
+          <br />
+          Puji syukur ke hadapan Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha
+          Esa, karena atas rahmat-Nya aplikasi media pembelajaran interaktif
+          Agama Hindu ini dapat disusun dan disajikan untuk digunakan oleh
+          peserta didik tingkat TK, SD, SMP, hingga SMA.
+          <br />
+          Aplikasi ini dirancang sebagai sarana pembelajaran yang menarik,
+          interaktif, dan mudah dipahami, dengan memadukan materi ajar, video
+          edukasi, serta evaluasi pembelajaran. Tujuannya adalah untuk membantu
+          siswa dalam memahami nilai-nilai ajaran Agama Hindu secara lebih
+          menyenangkan dan kontekstual sesuai dengan perkembangan usia.
+          <br />
+          Melalui aplikasi ini, diharapkan peserta didik dapat meningkatkan
+          pemahaman tentang ajaran dharma, etika, budaya, serta praktik
+          keagamaan dalam kehidupan sehari-hari. Selain itu, aplikasi ini juga
+          diharapkan dapat menjadi media pendukung bagi guru dan orang tua dalam
+          membimbing proses belajar siswa.
+          <br />
+          Akhir kata, semoga aplikasi ini dapat memberikan manfaat dan
+          kontribusi positif dalam dunia pendidikan, khususnya dalam
+          pembelajaran Agama Hindu.
+          <br /><br />
+          <b>Om Santih, Santih, Santih Om. </b>
+        </p>
+        <p
+          class="text-lg md:text-xl font-cartoon text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed"
+        >
+          Klik menu di bawah untuk mulai belajar!
+        </p>
+        <div class="space-x-4">
+          <a
+            href="#"
+            class="inline-block bg-gradient-to-r from-saffron to-gold text-white px-8 py-4 rounded-3xl text-2xl font-hindu font-bold btn-cartoon shadow-2xl hover:shadow-gold glow"
+            >Home 📚</a
+          >
+          <a
+            href="./assets/navbar/profile.html"
+            class="inline-block bg-white text-hinduRed px-8 py-4 rounded-3xl text-2xl font-hindu font-bold btn-cartoon shadow-2xl border-4 border-gold hover:bg-gold"
+            >Profile 👨‍👩‍👧</a
+          >
+          <a
+            href="./assets/navbar/materi.html"
+            class="inline-block bg-gradient-to-r from-saffron to-gold text-white px-8 py-4 rounded-3xl text-2xl font-hindu font-bold btn-cartoon shadow-2xl hover:shadow-gold glow"
+            >Materi 📚</a
+          >
+          <a
+            href="./assets/navbar/penutup.html"
+            class="inline-block bg-white text-hinduRed px-8 py-4 rounded-3xl text-2xl font-hindu font-bold btn-cartoon shadow-2xl border-4 border-gold hover:bg-gold"
+            >Close 👨‍👩‍👧</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <!-- <section class="py-20 px-4 bg-white/60 rounded-3xl mx-8 md:mx-16 mb-20">
+      <h2
+        class="text-4xl md:text-5xl font-hindu text-center mb-16 text-hinduRed"
+      >
+        Tujuan Pembelajaran 🎓
+      </h2>
+      <div
+        class="bg-white/80 p-12 rounded-3xl shadow-2xl mb-12 max-w-4xl mx-auto text-center"
+      >
+        <p class="text-xl font-cartoon mb-6 leading-relaxed text-gray-800">
+          <strong
+            >Melalui aplikasi ini, diharapkan peserta didik dapat meningkatkan
+            pemahaman tentang ajaran dharma, etika, budaya, serta praktik
+            keagamaan dalam kehidupan sehari-hari.</strong
+          >
+        </p>
+        <p class="text-lg font-cartoon text-gray-700 leading-relaxed">
+          Selain itu, aplikasi ini juga diharapkan dapat menjadi media pendukung
+          bagi guru dan orang tua dalam membimbing proses belajar siswa.
+        </p>
+      </div>
+    </section> -->
+
+    <!-- Akhir Kata -->
+    <!-- <section class="pb-20 px-4 md:px-8 text-center">
+      <div
+        class="max-w-4xl mx-auto bg-white/80 p-8 md:p-12 rounded-3xl shadow-2xl"
+      >
+        <p class="text-xl font-cartoon mb-6 leading-relaxed text-gray-800">
+          Akhir kata, semoga aplikasi ini dapat memberikan manfaat dan
+          kontribusi positif dalam dunia pendidikan, khususnya dalam
+          pembelajaran Agama Hindu.
+        </p>
+        <p class="font-cartoon text-2xl font-bold text-hinduRed">
+          Om Santih, Santih, Santih Om
+        </p>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="bg-hinduRed text-white p-8 text-center">
+      <p class="font-cartoon text-xl">
+        Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved
+      </p>
+    </footer>
+    <script src="./assets/src/script.js" defer></script>
+  </body>
+</html>

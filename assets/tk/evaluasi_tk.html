@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluasi TK - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen page-tk-evaluasi">
+    <!-- Navbar -->
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-xl md:text-2xl font-hindu font-bold">Evaluasi TK</h1>
+        </div>
+        <ul class="hidden md:flex space-x-4 text-sm">
+          <li>
+            <a
+              href="materi_tk.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >&larr; Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="quiz_tk.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >Quiz &rarr;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Video -->
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video evaluasi TK.
+        </video>
+      </div>
+    </div>
+
+    <!-- Evaluasi Form -->
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div
+        class="max-w-3xl mx-auto bg-white/90 p-8 md:p-12 rounded-3xl shadow-2xl"
+      >
+        <h1
+          class="text-4xl md:text-5xl font-hindu font-black text-hinduRed text-center mb-12"
+        >
+          Evaluasi TK &#128221;
+        </h1>
+        <p class="text-xl font-cartoon text-center mb-8 text-gray-700">
+          Mari kita evaluasi pemahaman tentang
+          <strong>Dewata Nawa Sangga</strong> (Sembilan Penjaga Mata Angin)!
+        </p>
+
+        <form id="evalForm" class="space-y-8">
+          <div class="p-6 bg-green-100 rounded-2xl">
+            <h3 class="text-2xl font-hindu font-bold mb-6">
+              1. Tunjukkan atau sebutkan warna-warna dalam penjaga mata angin.
+            </h3>
+            <textarea
+              name="q1"
+              class="w-full p-4 border-2 border-green-400 rounded-xl font-cartoon text-lg"
+              rows="4"
+              placeholder="Tulis warna-warna yang kamu ketahui di sini..."
+            ></textarea>
+          </div>
+          <div class="p-6 bg-green-100 rounded-2xl">
+            <h3 class="text-2xl font-hindu font-bold mb-6">
+              2. Sebutkan atau tunjukkan angka/bilangan dalam penjaga mata angin
+              dalam bahasa Indonesia, bahasa Sasak, dan bahasa Inggris.
+            </h3>
+            <textarea
+              name="q2"
+              class="w-full p-4 border-2 border-green-400 rounded-xl font-cartoon text-lg"
+              rows="4"
+              placeholder="Contoh: satu, due, three..."
+            ></textarea>
+            <h3 class="text-3xl text-center"><br><br><strong>
+              "Terimakasih Teman-Teman dan Sahabat Baikku"
+            </strong></h3>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full bg-gradient-to-r from-green-500 to-green-400 text-white py-6 rounded-3xl text-3xl font-hindu font-bold btn-cartoon shadow-2xl"
+          >
+            Kirim Evaluasi! &#10003;
+          </button>
+        </form>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+          <a
+            href="materi_tk.html"
+            class="bg-gradient-to-r from-green-500 to-green-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl text-center"
+            >Materi &#128221;</a
+          >
+          <a
+            href="quiz_tk.html"
+            class="bg-gradient-to-r from-emerald-500 to-emerald-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl text-center"
+            >Quiz &#127922;</a
+          >
+        </div>
+
+        <!-- Result Modal -->
+        <div id="result" class="result">
+          <div class="text-6xl mb-4" id="resultIcon">&#11088;</div>
+          <h2 class="text-3xl font-hindu mb-4" id="resultTitle">Hebat!</h2>
+          <p class="text-xl font-cartoon mb-8" id="resultText">
+            Kamu mendapat nilai evaluasi. Terus belajar ya!
+          </p>
+          <button
+            type="button"
+            data-close-result
+            class="bg-saffron text-white px-8 py-4 rounded-2xl text-xl font-hindu btn-cartoon"
+          >
+            Tutup & Belajar Lagi
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon">
+        Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved |
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>

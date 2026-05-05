@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz TK - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen page-tk-quiz">
+    <!-- Navbar -->
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-xl md:text-2xl font-hindu font-bold">Quiz TK 🎲</h1>
+        </div>
+        <ul class="hidden md:flex space-x-4 text-sm">
+          <li>
+            <a
+              href="materi_tk.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >← Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="evaluasi_tk.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >Evaluasi</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video quiz TK.
+        </video>
+      </div>
+    </div>
+
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div class="max-w-3xl mx-auto bg-white/90 p-12 rounded-3xl shadow-2xl">
+        <h1
+          class="text-4xl md:text-5xl font-hindu font-black text-hinduRed text-center mb-12"
+        >
+          Quiz Dewata Nawa Sangga TK 🎯
+        </h1>
+        <p class="text-xl font-cartoon text-center mb-8 text-gray-700">
+          Jawab pertanyaan tentang <strong>Warna Penjaga Mata Angin</strong>! 🌈
+        </p>
+
+        <form id="quizForm" class="space-y-8">
+          <!-- Q1 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌅 1. Arah TIMUR - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q1" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Putih ⚪</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q1" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Merah ❤️</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌄 2. Arah TENGGARA - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q2" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Hitam ⚫</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q2" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Merah Muda 💖</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              ☀️ 3. Arah SELATAN - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q3" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Merah ❤️</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q3" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Kuning 💛</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌆 4. Arah BARAT DAYA - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q4" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Putih ⚪</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q4" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Jingga 🧡</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌅 5. Arah BARAT - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q5" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Merah ❤️</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q5" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Kuning 💛</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌬️ 6. Arah BARAT LAUT - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q6" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Hijau 💚</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q6" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Putih ⚪</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              ❄️ 7. Arah UTARA - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q7" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Abu-Abu 🩶</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q7" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Hitam ⚫</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q8 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌤️ 8. Arah TIMUR LAUT - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q8" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Warna-Warni 🌈</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q8" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Abu-Abu 🩶</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Q9 -->
+          <div class="p-6 bg-green-100 rounded-2xl border-4 border-green-400">
+            <h3 class="text-2xl font-hindu font-bold mb-6 text-center">
+              🌟 9. Arah TENGAH - Warnanya Apa?
+            </h3>
+            <div class="space-y-4">
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q9" value="a" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">A. Jingga 🧡</span>
+              </label>
+              <label
+                class="block p-4 border-2 border-green-300 rounded-xl cursor-pointer hover:bg-green-200"
+              >
+                <input type="radio" name="q9" value="b" class="mr-4 w-6 h-6" />
+                <span class="font-cartoon text-xl">B. Abu-Abu 🩶</span>
+              </label>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full bg-gradient-to-r from-green-500 to-green-400 text-white py-6 rounded-3xl text-3xl font-hindu font-bold btn-cartoon shadow-2xl hover:shadow-green"
+          >
+            Selesai Quiz! ✅
+          </button>
+        </form>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+          <a
+            href="../navbar/penutup.html"
+            class="bg-gradient-to-r from-emerald-500 to-emerald-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl"
+            >Penutup 🎲</a
+          >
+        </div>
+
+        <div id="result" class="result">
+          <div class="text-6xl mb-4" id="resultIcon">⭐</div>
+          <h2 class="text-3xl font-hindu mb-4" id="resultTitle">Hebat!</h2>
+          <p class="text-xl font-cartoon mb-8" id="resultText">
+            Kamu mendapat <span id="resultScore"></span>/9! Terus belajar ya! 🎉
+          </p>
+          <button
+            data-close-result
+            class="bg-saffron text-white px-8 py-4 rounded-2xl text-xl font-hindu btn-cartoon"
+          >
+            Tutup & Belajar Lagi
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon">
+        Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved |
+        <a href="materi_tk.html" class="underline">← Materi TK</a>
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen text-gray-800 page-navbar-materi">
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-2xl md:text-3xl font-hindu font-bold">
+            Belajar Hindu Anak
+          </h1>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+          <li>
+            <a
+              href="../../index.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="materi.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-lotusPink font-bold hover:bg-gold"
+              >Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="penutup.html"
+              class="btn-cartoon px-4 py-2 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >Penutup</a
+            >
+          </li>
+        </ul>
+        <button class="md:hidden text-2xl">Menu</button>
+      </div>
+    </nav>
+    <!-- awal video -->
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video materi pembelajaran.
+        </video>
+      </div>
+    </div>
+    <!-- akhir video -->
+
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1
+          class="text-4xl md:text-6xl font-hindu font-black text-white drop-shadow-2xl mb-8"
+        >
+          Materi Pembelajaran Agama Hindu
+        </h1>
+
+        <div class="bg-white/90 p-8 md:p-12 rounded-3xl shadow-2xl mb-12">
+          <p class="text-2xl font-cartoon text-gray-800 mb-8 leading-relaxed">
+            Selamat datang pada
+            <strong>Materi Pembelajaran Agama Hindu</strong>.
+          </p>
+          <p class="text-xl font-cartoon text-gray-800 leading-relaxed mb-6">
+            Media pembelajaran ini menampilkan materi
+            <strong>Dewata Nawa Sangga</strong> dari PAUD, Sekolah Dasar, SMP,
+            dan SMA.
+          </p>
+          <p class="text-xl font-cartoon text-gray-800 leading-relaxed">
+            Dewata Nawa Sangga adalah merupakan konsep kosmologi Hindu tentang
+            <strong>sembilan manifestasi Tuhan</strong> yang berfungsi sebagai
+            penjaga harmoni di sembilan penjuru mata angin.
+          </p>
+          <p class="text-2xl font-hindu text-hinduRed drop-shadow-lg mb-8">
+            Lebih lanjut ayo kita klik mulai.
+          </p>
+        </div>
+
+        <a
+          href="../materi/salam.html"
+          class="inline-block bg-gradient-to-r from-saffron to-gold text-white px-12 py-6 rounded-3xl text-3xl font-hindu font-bold btn-cartoon shadow-2xl hover:shadow-gold glow"
+          >Mulai</a
+        >
+      </div>
+    </section>
+
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon text-xl">
+        <a href="../../index.html" class="underline hover:no-underline"
+          >Beranda</a
+        >
+        |
+        <a href="profile.html" class="underline hover:no-underline">Profile</a>
+        |
+        <a href="penutup.html" class="underline hover:no-underline">Penutup</a>
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>

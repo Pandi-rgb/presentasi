@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz SMA - Belajar Agama Hindu untuk Anak</title>
+    <script src="../src/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="min-h-screen page-sma-quiz">
+    <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <img
+            src="../lotus-icon.svg"
+            alt="Lotus"
+            class="w-12 h-12 animate-spin-slow"
+          />
+          <h1 class="text-xl md:text-2xl font-hindu font-bold">Quiz SMA</h1>
+        </div>
+        <ul class="hidden md:flex space-x-4 text-sm">
+          <li>
+            <a
+              href="materi_sma.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-hinduRed font-bold hover:bg-gold"
+              >Materi</a
+            >
+          </li>
+          <li>
+            <a
+              href="evaluasi_sma.html"
+              class="btn-cartoon px-3 py-1 rounded-full bg-white text-saffron font-bold hover:bg-gold"
+              >Evaluasi</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <div class="video-frame p-2">
+        <video
+          autoplay
+          loop
+          controls
+          class="w-full h-full rounded-2xl object-cover"
+        >
+          <source src="../video/evaluasi_smp.mp4" type="video/mp4" />
+          Video quiz SMA.
+        </video>
+      </div>
+    </div>
+
+    <section class="pt-24 pb-20 px-4 md:px-8">
+      <div
+        class="max-w-3xl mx-auto bg-white/90 p-8 md:p-12 rounded-3xl shadow-2xl"
+      >
+        <h1
+          class="text-4xl md:text-5xl font-hindu font-black text-orange-600 text-center mb-8"
+        >
+          Quiz SMA
+        </h1>
+        <!-- <p class="text-xl font-cartoon text-center mb-8 text-gray-700">
+          Pilih jawaban terbaik untuk materi Nawa Sangga dan praktik spiritual.
+        </p> -->
+        <form id="quizForm" class="space-y-8"></form>
+        <div id="result" class="result">
+          <h2 class="text-3xl font-hindu mb-4" id="resultTitle">Hebat!</h2>
+          <p class="text-xl font-cartoon mb-8" id="resultText"></p>
+          <button
+            data-close-result
+            class="bg-orange-500 text-white px-8 py-4 rounded-2xl text-xl font-hindu btn-cartoon"
+          >
+            Tutup
+          </button>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+          <a
+            href="../navbar/penutup.html"
+            class="bg-gradient-to-r from-emerald-500 to-emerald-400 text-white px-12 py-6 rounded-3xl text-2xl font-hindu btn-cartoon shadow-2xl"
+            >Penutup</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer class="bg-hinduRed text-white p-8 text-center mt-40">
+      <p class="font-cartoon">
+         Created by Bu Desak <br />
+        &copy; 2026 All Rights Reserved |
+        <a href="materi_sma.html" class="underline">Kembali ke Materi</a>
+      </p>
+    </footer>
+    <script src="../src/script.js" defer></script>
+  </body>
+</html>
