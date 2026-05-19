@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pilihan Materi - Belajar Agama Hindu untuk Anak</title>
-    <script src="../src/tailwind-config.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pilihan Materi - Belajar untuk Anak</title>
+    <!-- <script src="../src/tailwind-config.js"></script> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../src/output.css" />
     <link rel="stylesheet" href="../src/style.css" />
   </head>
-  <body class="min-h-screen page-materi-pilihan">
+  <body class="min-h-screen page-materi-pilihan bg-gradient-to-r from-sky-400 via-sky-300 to-sky-200">
     <!-- Navbar same -->
     <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
       <div class="container mx-auto flex justify-between items-center">
@@ -23,7 +24,7 @@
             class="w-12 h-12 animate-spin-slow"
           />
           <h1 class="text-2xl md:text-3xl font-hindu font-bold">
-            📚 Belajar Hindu Anak
+            📚 Media Pembelajaran Interaktif
           </h1>
         </div>
         <ul class="hidden md:flex space-x-6">
@@ -60,7 +61,7 @@
     </nav>
 
     <!-- Video -->
-    <div class="video-container">
+    <!-- <div class="video-container">
       <div class="video-frame p-2">
         <video
           autoplay
@@ -72,36 +73,44 @@
           Video materi pembelajaran.
         </video>
       </div>
-    </div>
+    </div> -->
     <!-- Akhir Video -->
+
+    <!-- animasi awan -->
+     <div class="awan awan1"></div>
+     <div class="awan awan2"></div>
+     <div class="awan awan3"></div>
+     <div class="awan awan4"></div>
+     <div class="awan awan5"></div>
+     <!-- akhir awan -->
+
     <!-- Content -->
     <section class="pt-24 pb-20 px-4 md:px-8">
       <div class="max-w-4xl mx-auto text-center mb-16">
         <h1
-          class="text-4xl md:text-6xl font-hindu font-black text-white drop-shadow-2xl mb-8"
+          class="text-4xl md:text-6xl font-hindu font-black text-gold drop-shadow-2xl mb-8"
         >
-          Om Swastyastu 🙏
+          Halo 👋
         </h1>
-        <p class="text-xl font-cartoon text-gray-700 mb-8 leading-relaxed">
-          Semoga kita selamat dan senantiasa dalam lindungan Ida Sanghyang Widhi
-          Wasa, hai anak-anakku sekalian.
+        <p class="text-2xl font-cartoon text-gray-800 mb-8 leading-relaxed">
+          Selamat datang di aplikasi pembelajaran interaktif.
         </p>
-        <p class="text-lg font-cartoon text-gray-700 mb-6 leading-relaxed">
-          Selamat datang pada pelajaran
-          <strong>Agama Hindu dan Budi Pekerti</strong> dengan materi esensial
-          <strong>Dewata Nawa Sangga</strong> (Sembilan Penjaga Mata Angin).
+        <p class="text-xl font-cartoon text-gray-800 mb-6 leading-relaxed">
+          Pada materi ini, pengguna akan belajar mengenal warna, angka, arah,
+          dan pengetahuan dasar lainnya dengan cara yang menarik dan mudah
+          dipahami.
         </p>
-        <div class="card-video"></div>
+
         <div class="bg-white/90 p-8 rounded-3xl shadow-xl mb-12">
-          <p class="text-lg font-cartoon text-gray-800 leading-relaxed">
-            Penerapannya di PAUD atau tingkat persiapan dikenalkan tentang warna
-            dan bilangan dalam <strong>Bahasa Sasak</strong> yang merupakan
-            warisan budaya lokal.
+          <p class="text-xl font-cartoon text-gray-800 leading-relaxed">
+            Media pembelajaran untuk semua mata pelajaran dengan pendekatan
+            visual dan interaktif. <br /><br />
+            Materi disusun untuk berbagai jenis mata pelajaran mulai, IPS, IPA,
+            PPKN dan TIK dengan pendekatan visual dan interaktif.
           </p>
-          <div class="card-video"></div>
         </div>
-        <h2 class="text-3xl font-hindu text-white drop-shadow-lg mb-8">
-          Silakan Memilih Materi Sesuai Tingkat Jenjang Sekolah! 📚
+        <h2 class="text-3xl font-hindu text-saffron drop-shadow-lg mb-8">
+          Silakan Memilih Mata Pelajaran 📚
         </h2>
       </div>
       <div
@@ -116,8 +125,8 @@
           >
             👶
           </div>
-          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">TK</h2>
-          <p class="font-cartoon text-2xl">Anak Usia Dini (4-6 tahun)</p>
+          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">IPA</h2>
+          <p class="font-cartoon text-2xl">Ilmu Pengetahuan Alam</p>
         </a>
         <a
           href="../sd/materi_sd.html"
@@ -128,8 +137,8 @@
           >
             👦
           </div>
-          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">SD</h2>
-          <p class="font-cartoon text-2xl">Sekolah Dasar (7-12 tahun)</p>
+          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">IPS</h2>
+          <p class="font-cartoon text-2xl">Ilmu Pengetahuan Sosial</p>
         </a>
         <a
           href="../smp/materi_smp.html"
@@ -140,8 +149,10 @@
           >
             🧑‍🎓
           </div>
-          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">SMP</h2>
-          <p class="font-cartoon text-2xl">Sekolah Menengah Pertama</p>
+          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">PPKN</h2>
+          <p class="font-cartoon text-2xl">
+            Pendidikan Pancasila dan Kewarganegaraan
+          </p>
         </a>
         <a
           href="../sma/materi_sma.html"
@@ -152,15 +163,17 @@
           >
             👩‍🎓
           </div>
-          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">SMA</h2>
-          <p class="font-cartoon text-2xl">Sekolah Menengah Atas</p>
+          <h2 class="text-3xl font-hindu font-bold text-gray-800 mb-4">TIK</h2>
+          <p class="font-cartoon text-2xl">
+            Teknologi Informasi dan Komunikasi
+          </p>
         </a>
       </div>
     </section>
 
     <footer class="bg-hinduRed text-white p-8 text-center mt-40">
       <p class="font-cartoon text-xl">
-        Created by Bu Desak <br />
+        Created by CV. Bale Technology Solution <br />
         &copy; 2026 All Rights Reserved |
         <a href="./doa.html" class="underline">← Doa</a>
       </p>

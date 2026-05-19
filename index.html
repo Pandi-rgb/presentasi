@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beranda - Belajar Agama Hindu untuk Anak</title>
+    <title>Beranda - Belajar untuk Anak</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script>
+    <!-- <script>
       tailwind.config = {
         theme: {
           extend: {
@@ -36,15 +36,15 @@
           },
         },
       };
-    </script>
+    </script> -->
     <style>
       body {
         font-family: "cartoon", sans-serif;
         background: linear-gradient(
           135deg,
-          #ff9933 0%,
-          #ffd700 50%,
-          #fff8dc 100%
+          oklch(74.6% 0.16 232.661),
+          oklch(82.8% 0.111 230.318),
+          oklch(90.1% 0.058 230.902)
         );
       }
       .hindu-nav {
@@ -82,9 +82,12 @@
         animation: spin-slow 20s linear infinite;
       }
     </style>
+    <link rel="stylesheet" href="./assets/src/output.css" />
     <link rel="stylesheet" href="./assets/src/style.css" />
   </head>
-  <body class="min-h-screen text-gray-800">
+  <body
+    class="min-h-screen text-gray-800 bg-gradient-to-r from-sky-400 via-sky-300 to-sky-200"
+  >
     <!-- Navbar -->
     <nav class="hindu-nav text-white shadow-2xl p-4 fixed w-full z-50 top-0">
       <div class="container mx-auto flex justify-between items-center">
@@ -95,7 +98,7 @@
             class="w-12 h-12 animate-spin-slow"
           />
           <h1 class="text-2xl md:text-3xl font-hindu font-bold">
-            📚 Belajar Hindu Anak
+            📚 Media Pembelajaran Interaktif
           </h1>
         </div>
         <ul class="hidden md:flex space-x-6">
@@ -132,15 +135,31 @@
       </div>
     </nav>
 
+    <!-- awan -->
+    <div class="awan awan1"></div>
+    <div class="awan awan2"></div>
+    <div class="awan awan3"></div>
+    <div class="awan awan4"></div>
+    <div class="awan awan5"></div>
+
+    <!-- awan rame -->
+    <div class="awan awan-rame1"></div>
+    <div class="awan awan-rame2"></div>
+    <div class="awan awan-rame3"></div>
+    <div class="awan awan-rame4"></div>
+    <div class="awan awan-rame5"></div>
+    <div class="awan awan-rame6"></div>
+    <!-- akhir awan -->
+
     <!-- Hero Section -->
     <section class="pt-24 pb-20 px-4 md:px-8 text-center">
       <div class="max-w-x5l mx-auto">
         <img
-          src="assets/cartoon-ganesha.png"
+          src="assets/img/tutwuri-handayani.png"
           alt="Ganesha Cartoon"
           class="mx-auto w-48 h-48 md:w-64 md:h-64 rounded-full glow mb-8 shadow-2xl"
           onerror="
-            this.src = 'assets/cartoon-ganesha.svg';
+            this.src = 'assets/img/tutwuri-handayani.png';
             this.onerror = () => {
               this.src = 'assets/lotus-icon.svg';
             };
@@ -149,36 +168,36 @@
         <h1
           class="text-4xl md:text-6xl font-hindu font-black text-white drop-shadow-2xl mb-6"
         >
-          Om Swastyastu 🙏
+          Assalamu'alaikum wr. wb.
         </h1>
         <p
           class="text-xl md:text-2xl font-cartoon text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed"
         >
-          Selamat datang di Aplikasi Media Pembelajaran Interaktif Agama Hindu.
+          Selamat datang di Aplikasi Media Pembelajaran Interaktif
           <br />
           <br />
-          Puji syukur ke hadapan Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha
-          Esa, karena atas rahmat-Nya aplikasi media pembelajaran interaktif
-          Agama Hindu ini dapat disusun dan disajikan untuk digunakan oleh
-          peserta didik tingkat TK, SD, SMP, hingga SMA.
+          Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa karena atas
+          rahmat dan karunia-Nya aplikasi web media pembelajaran ini dapat
+          disusun dan dikembangkan dengan baik. Aplikasi ini dibuat sebagai
+          sarana pendukung proses belajar mengajar agar menjadi lebih efektif,
+          interaktif, dan mudah diakses oleh peserta didik maupun pendidik.
           <br />
-          Aplikasi ini dirancang sebagai sarana pembelajaran yang menarik,
-          interaktif, dan mudah dipahami, dengan memadukan materi ajar, video
-          edukasi, serta evaluasi pembelajaran. Tujuannya adalah untuk membantu
-          siswa dalam memahami nilai-nilai ajaran Agama Hindu secara lebih
-          menyenangkan dan kontekstual sesuai dengan perkembangan usia.
+          Perkembangan teknologi informasi yang semakin pesat menuntut dunia
+          pendidikan untuk terus beradaptasi dengan penggunaan media digital.
+          Oleh karena itu, kehadiran aplikasi web media pembelajaran ini
+          diharapkan mampu membantu pengguna dalam memperoleh materi
+          pembelajaran secara fleksibel, menarik, dan efisien.
           <br />
-          Melalui aplikasi ini, diharapkan peserta didik dapat meningkatkan
-          pemahaman tentang ajaran dharma, etika, budaya, serta praktik
-          keagamaan dalam kehidupan sehari-hari. Selain itu, aplikasi ini juga
-          diharapkan dapat menjadi media pendukung bagi guru dan orang tua dalam
-          membimbing proses belajar siswa.
+          Kami menyadari bahwa dalam pembuatan aplikasi ini masih terdapat
+          kekurangan, baik dari segi tampilan, fitur, maupun penyajian materi.
+          Oleh sebab itu, kritik dan saran yang membangun sangat kami harapkan
+          demi penyempurnaan aplikasi ini di masa mendatang.
           <br />
-          Akhir kata, semoga aplikasi ini dapat memberikan manfaat dan
-          kontribusi positif dalam dunia pendidikan, khususnya dalam
-          pembelajaran Agama Hindu.
+          Akhir kata, kami berharap aplikasi web media pembelajaran ini dapat
+          memberikan manfaat bagi seluruh pengguna dan menjadi salah satu
+          inovasi yang mendukung peningkatan kualitas pendidikan.
           <br /><br />
-          <b>Om Santih, Santih, Santih Om. </b>
+          <b>Wassalamu'alaikum wr. wb. </b>
         </p>
         <p
           class="text-lg md:text-xl font-cartoon text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed"
@@ -210,50 +229,10 @@
       </div>
     </section>
 
-    <!-- Features -->
-    <!-- <section class="py-20 px-4 bg-white/60 rounded-3xl mx-8 md:mx-16 mb-20">
-      <h2
-        class="text-4xl md:text-5xl font-hindu text-center mb-16 text-hinduRed"
-      >
-        Tujuan Pembelajaran 🎓
-      </h2>
-      <div
-        class="bg-white/80 p-12 rounded-3xl shadow-2xl mb-12 max-w-4xl mx-auto text-center"
-      >
-        <p class="text-xl font-cartoon mb-6 leading-relaxed text-gray-800">
-          <strong
-            >Melalui aplikasi ini, diharapkan peserta didik dapat meningkatkan
-            pemahaman tentang ajaran dharma, etika, budaya, serta praktik
-            keagamaan dalam kehidupan sehari-hari.</strong
-          >
-        </p>
-        <p class="text-lg font-cartoon text-gray-700 leading-relaxed">
-          Selain itu, aplikasi ini juga diharapkan dapat menjadi media pendukung
-          bagi guru dan orang tua dalam membimbing proses belajar siswa.
-        </p>
-      </div>
-    </section> -->
-
-    <!-- Akhir Kata -->
-    <!-- <section class="pb-20 px-4 md:px-8 text-center">
-      <div
-        class="max-w-4xl mx-auto bg-white/80 p-8 md:p-12 rounded-3xl shadow-2xl"
-      >
-        <p class="text-xl font-cartoon mb-6 leading-relaxed text-gray-800">
-          Akhir kata, semoga aplikasi ini dapat memberikan manfaat dan
-          kontribusi positif dalam dunia pendidikan, khususnya dalam
-          pembelajaran Agama Hindu.
-        </p>
-        <p class="font-cartoon text-2xl font-bold text-hinduRed">
-          Om Santih, Santih, Santih Om
-        </p>
-      </div>
-    </section> -->
-
     <!-- Footer -->
     <footer class="bg-hinduRed text-white p-8 text-center">
       <p class="font-cartoon text-xl">
-        Created by Bu Desak <br />
+        Created by CV. Bale Technology Solution <br />
         &copy; 2026 All Rights Reserved
       </p>
     </footer>

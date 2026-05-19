@@ -8,95 +8,95 @@
 // q = pertanyaan, a = pilihan jawaban, c = index jawaban benar.
 const sharedDewataQuestions = [
   {
-    q: "1. Ini adalah arah timur, dewa siapakah di timur?",
-    a: ["Dewa brahma", "Dewa iswara"],
+    q: "1. 🌞 Apa pusat tata surya?",
+    a: ["Bulan", "Matahari"],
     c: 1,
   },
   {
-    q: "2. Ini adalah arah tenggara, dewa siapakah di tenggara?",
-    a: ["Dewa maheswara", "Dewa wisnu"],
+    q: "2. 🪐 Planet bercincin terkenal adalah...",
+    a: ["Saturnus", "Merkurius"],
     c: 0,
   },
   {
-    q: "3. Ini adalah arah selatan, dewa siapakah di selatan?",
-    a: ["Dewa wisnu", "Dewa brahma"],
+    q: "3. 🌱 Menanam pohon membantu menjaga...",
+    a: ["Lingkungan", "Mainan"],
+    c: 0,
+  },
+  {
+    q: "4. 💧 Kita harus menggunakan air dengan...",
+    a: ["Boros", "Hemat"],
     c: 1,
   },
   {
-    q: "4. Ini adalah arah barat daya, dewa siapakah di barat daya?",
-    a: ["Dewa mahadewa", "Dewa rudra"],
+    q: "5. 🗑️ Sampah sebaiknya dibuang ke...",
+    a: ["Sungai", "Tempat sampah"],
     c: 1,
   },
-  {
-    q: "5. Ini adalah arah barat, dewa siapakah di barat?",
-    a: ["Dewa siwa", "Dewa mahadewa"],
-    c: 1,
-  },
-  {
-    q: "6. Ini adalah arah barat laut, dewa siapakah di barat laut?",
-    a: ["Dewa sangkara", "Dewa iswara"],
-    c: 0,
-  },
-  {
-    q: "7. Ini adalah arah utara, dewa siapakah di utara?",
-    a: ["Dewa brahma", "Dewa wisnu"],
-    c: 1,
-  },
-  {
-    q: "8. Ini adalah arah timur laut, dewa siapakah di timur laut?",
-    a: ["Dewa sambhu", "Dewa maheswara"],
-    c: 0,
-  },
-  {
-    q: "9. Ini adalah tengah, dewa siapakah di tengah?",
-    a: ["Dewa brahma", "Dewa siwa"],
-    c: 1,
-  },
-  {
-    q: "10. Ini adalah dewa iswara, apakah warnanya?",
-    a: ["Merah", "Putih"],
-    c: 1,
-  },
-  {
-    q: "11. Ini adalah dewa maheswara, apakah warnanya?",
-    a: ["Merah Muda", "Kuning"],
-    c: 0,
-  },
-  {
-    q: "12. Ini adalah dewa brahma, apakah warnanya?",
-    a: ["Merah", "Hitam"],
-    c: 0,
-  },
-  {
-    q: "13. Ini adalah dewa rudra, apakah warnanya?",
-    a: ["Putih", "Jingga"],
-    c: 1,
-  },
-  {
-    q: "14. Ini adalah dewa mahadewa, apakah warnanya?",
-    a: ["Kuning", "Abu-Abu"],
-    c: 0,
-  },
-  {
-    q: "15. Ini adalah dewa sangkara, apakah warnanya?",
-    a: ["Hijau", "Kuning"],
-    c: 0,
-  },
-  {
-    q: "16. Ini adalah dewa wisnu, apakah warnanya?",
-    a: ["Hitam", "Putih"],
-    c: 0,
-  },
-  {
-    q: "17. Ini adalah dewa sambhu, apakah warnanya?",
-    a: ["Abu-Abu", "Merah Muda"],
-    c: 0,
-  },
-  {
-    q: "18. Ini adalah dewa siwa, apakah warnanya?",
-    a: ["Warna-Warni", "Merah"],
-    c: 0,
-  },
+  // {
+  //   q: "6. Ini adalah arah barat laut, dewa siapakah di barat laut?",
+  //   a: ["Dewa sangkara", "Dewa iswara"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "7. Ini adalah arah utara, dewa siapakah di utara?",
+  //   a: ["Dewa brahma", "Dewa wisnu"],
+  //   c: 1,
+  // },
+  // {
+  //   q: "8. Ini adalah arah timur laut, dewa siapakah di timur laut?",
+  //   a: ["Dewa sambhu", "Dewa maheswara"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "9. Ini adalah tengah, dewa siapakah di tengah?",
+  //   a: ["Dewa brahma", "Dewa siwa"],
+  //   c: 1,
+  // },
+  // {
+  //   q: "10. Ini adalah dewa iswara, apakah warnanya?",
+  //   a: ["Merah", "Putih"],
+  //   c: 1,
+  // },
+  // {
+  //   q: "11. Ini adalah dewa maheswara, apakah warnanya?",
+  //   a: ["Merah Muda", "Kuning"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "12. Ini adalah dewa brahma, apakah warnanya?",
+  //   a: ["Merah", "Hitam"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "13. Ini adalah dewa rudra, apakah warnanya?",
+  //   a: ["Putih", "Jingga"],
+  //   c: 1,
+  // },
+  // {
+  //   q: "14. Ini adalah dewa mahadewa, apakah warnanya?",
+  //   a: ["Kuning", "Abu-Abu"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "15. Ini adalah dewa sangkara, apakah warnanya?",
+  //   a: ["Hijau", "Kuning"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "16. Ini adalah dewa wisnu, apakah warnanya?",
+  //   a: ["Hitam", "Putih"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "17. Ini adalah dewa sambhu, apakah warnanya?",
+  //   a: ["Abu-Abu", "Merah Muda"],
+  //   c: 0,
+  // },
+  // {
+  //   q: "18. Ini adalah dewa siwa, apakah warnanya?",
+  //   a: ["Warna-Warni", "Merah"],
+  //   c: 0,
+  // },
 ];
 
 const quizPages = {
@@ -104,159 +104,194 @@ const quizPages = {
     questions: sharedDewataQuestions,
     color: "blue",
     button: "from-blue-500 to-blue-400",
-    threshold: 14,
+    threshold: 4,
     goodTitle: "Pintar sekali!",
     badTitle: "Tetap semangat!",
   },
+  // "page-smp-quiz": {
+  //   questions: sharedDewataQuestions,
+  //   color: "purple",
+  //   button: "from-purple-500 to-purple-400",
+  //   threshold: 4,
+  //   goodTitle: "Pemahamanmu bagus!",
+  //   badTitle: "Ayo ulangi materi!",
+  // },
   "page-smp-quiz": {
-    questions: sharedDewataQuestions,
+    questions: [
+      {
+        q: "1. 🌞 Cahaya matahari termasuk komponen...",
+        a: ["Biotik", "Abiotik"],
+        c: 1,
+      },
+      {
+        q: "2. 🌱 Tumbuhan membutuhkan air untuk...",
+        a: ["Hidup", "Bermain"],
+        c: 0,
+      },
+      {
+        q: "3. 🗑️ Membuang sampah sembarangan dapat menyebabkan...",
+        a: ["Lingkungan bersih", "Pencemaran"],
+        c: 1,
+      },
+      {
+        q: "4. 🌍 Ekosistem adalah hubungan antara...",
+        a: ["Makhluk hidup dan lingkungannya", "Kendaraan dan jalan"],
+        c: 0,
+      },
+      {
+        q: "5. 💧 Menghemat air membantu menjaga...",
+        a: ["Lingkungan", "Kemacetan"],
+        c: 0,
+      },
+    ],
+    // questions: sharedDewataQuestions,
     color: "purple",
     button: "from-purple-500 to-purple-400",
-    threshold: 14,
+    threshold: 4,
     goodTitle: "Pemahamanmu bagus!",
     badTitle: "Ayo ulangi materi!",
   },
   "page-sma-quiz": {
     questions: [
       {
-        q: "1. Ini adalah dewa Iswara, apakah senjatanya?",
-        a: ["Bajra", "Dupa"],
+        q: "1. 💻 AI merupakan singkatan dari...",
+        a: ["Artificial Intelligence", "Automatic Internet"],
         c: 0,
       },
       {
-        q: "2. Ini adalah dewa Maheswara, apakah senjatanya?",
-        a: ["Gada", "Dupa"],
+        q: "2. 🔒 Password yang baik sebaiknya...",
+        a: ["Mudah ditebak", "Kombinasi huruf, angka, dan simbol"],
         c: 1,
       },
       {
-        q: "3. Ini adalah dewa Brahma, apakah senjatanya?",
-        a: ["Moksala", "Gada"],
+        q: "3. 🌐 Internet dapat memberikan dampak...",
+        a: ["Positif dan negatif", "Negatif saja"],
+        c: 0,
+      },
+      {
+        q: "4. 📱 Data pribadi harus dijaga agar tidak...",
+        a: ["Disalahgunakan", "Dipelajari"],
+        c: 0,
+      },
+      {
+        q: "5. ⚠️ Link mencurigakan sebaiknya...",
+        a: ["Langsung dibuka", "Dihindari"],
         c: 1,
       },
-      {
-        q: "4. Ini adalah dewa Rudra, apakah senjatanya?",
-        a: ["Nagapasa", "Moksala"],
-        c: 1,
-      },
-      {
-        q: "5. Ini adalah dewa Mahadewa, apakah senjatanya?",
-        a: ["Nagapasa", "Angkus"],
-        c: 0,
-      },
-      {
-        q: "6. Ini adalah dewa Sangkara, apakah senjatanya?",
-        a: ["Angkus", "Cakra"],
-        c: 0,
-      },
-      {
-        q: "7. Ini adalah dewa Wisnu, apakah senjatanya?",
-        a: ["Cakra", "Padma"],
-        c: 0,
-      },
-      {
-        q: "8. Ini adalah dewa Sambhu, apakah senjatanya?",
-        a: ["Trisula", "Cakra"],
-        c: 0,
-      },
-      {
-        q: "9. Ini adalah dewa Siwa, apakah senjatanya?",
-        a: ["Padma", "Gada"],
-        c: 0,
-      },
-      {
-        q: "10. Ini adalah arah timur, dewa siapakah di timur?",
-        a: ["Dewa Brahma", "Dewa Iswara"],
-        c: 1,
-      },
-      {
-        q: "11. Ini adalah arah tenggara, dewa siapakah di tenggara?",
-        a: ["Dewa Maheswara", "Dewa Wisnu"],
-        c: 0,
-      },
-      {
-        q: "12. Ini adalah arah selatan, dewa siapakah di selatan?",
-        a: ["Dewa Wisnu", "Dewa Brahma"],
-        c: 1,
-      },
-      {
-        q: "13. Ini adalah arah barat daya, dewa siapakah di barat daya?",
-        a: ["Dewa Mahadewa", "Dewa Rudra"],
-        c: 1,
-      },
-      {
-        q: "14. Ini adalah arah barat, dewa siapakah di barat?",
-        a: ["Dewa Siwa", "Dewa Mahadewa"],
-        c: 1,
-      },
-      {
-        q: "15. Ini adalah arah barat laut, dewa siapakah di barat laut?",
-        a: ["Dewa Sangkara", "Dewa Iswara"],
-        c: 0,
-      },
-      {
-        q: "16. Ini adalah arah utara, dewa siapakah di utara?",
-        a: ["Dewa Brahma", "Dewa Wisnu"],
-        c: 1,
-      },
-      {
-        q: "17. Ini adalah arah timur laut, dewa siapakah di timur laut?",
-        a: ["Dewa Sambhu", "Dewa Maheswara"],
-        c: 0,
-      },
-      {
-        q: "18. Ini adalah tengah, dewa siapakah di tengah?",
-        a: ["Dewa Brahma", "Dewa Siwa"],
-        c: 1,
-      },
-      {
-        q: "19. Ini adalah dewa Iswara, apakah warnanya?",
-        a: ["Merah", "Putih"],
-        c: 1,
-      },
-      {
-        q: "20. Ini adalah dewa Maheswara, apakah warnanya?",
-        a: ["Merah Muda", "Kuning"],
-        c: 0,
-      },
-      {
-        q: "21. Ini adalah dewa Brahma, apakah warnanya?",
-        a: ["Merah", "Hitam"],
-        c: 0,
-      },
-      {
-        q: "22. Ini adalah dewa Rudra, apakah warnanya?",
-        a: ["Putih", "Jingga"],
-        c: 1,
-      },
-      {
-        q: "23. Ini adalah dewa Mahadewa, apakah warnanya?",
-        a: ["Kuning", "Abu-Abu"],
-        c: 0,
-      },
-      {
-        q: "24. Ini adalah dewa Sangkara, apakah warnanya?",
-        a: ["Hijau", "Kuning"],
-        c: 0,
-      },
-      {
-        q: "25. Ini adalah dewa Wisnu, apakah warnanya?",
-        a: ["Hitam", "Putih"],
-        c: 0,
-      },
-      {
-        q: "26. Ini adalah dewa Sambhu, apakah warnanya?",
-        a: ["Abu-Abu", "Merah Muda"],
-        c: 0,
-      },
-      {
-        q: "27. Ini adalah dewa Siwa, apakah warnanya?",
-        a: ["Warna-Warni", "Merah"],
-        c: 0,
-      },
+      // {
+      //   q: "6. Ini adalah dewa Sangkara, apakah senjatanya?",
+      //   a: ["Angkus", "Cakra"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "7. Ini adalah dewa Wisnu, apakah senjatanya?",
+      //   a: ["Cakra", "Padma"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "8. Ini adalah dewa Sambhu, apakah senjatanya?",
+      //   a: ["Trisula", "Cakra"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "9. Ini adalah dewa Siwa, apakah senjatanya?",
+      //   a: ["Padma", "Gada"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "10. Ini adalah arah timur, dewa siapakah di timur?",
+      //   a: ["Dewa Brahma", "Dewa Iswara"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "11. Ini adalah arah tenggara, dewa siapakah di tenggara?",
+      //   a: ["Dewa Maheswara", "Dewa Wisnu"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "12. Ini adalah arah selatan, dewa siapakah di selatan?",
+      //   a: ["Dewa Wisnu", "Dewa Brahma"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "13. Ini adalah arah barat daya, dewa siapakah di barat daya?",
+      //   a: ["Dewa Mahadewa", "Dewa Rudra"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "14. Ini adalah arah barat, dewa siapakah di barat?",
+      //   a: ["Dewa Siwa", "Dewa Mahadewa"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "15. Ini adalah arah barat laut, dewa siapakah di barat laut?",
+      //   a: ["Dewa Sangkara", "Dewa Iswara"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "16. Ini adalah arah utara, dewa siapakah di utara?",
+      //   a: ["Dewa Brahma", "Dewa Wisnu"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "17. Ini adalah arah timur laut, dewa siapakah di timur laut?",
+      //   a: ["Dewa Sambhu", "Dewa Maheswara"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "18. Ini adalah tengah, dewa siapakah di tengah?",
+      //   a: ["Dewa Brahma", "Dewa Siwa"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "19. Ini adalah dewa Iswara, apakah warnanya?",
+      //   a: ["Merah", "Putih"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "20. Ini adalah dewa Maheswara, apakah warnanya?",
+      //   a: ["Merah Muda", "Kuning"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "21. Ini adalah dewa Brahma, apakah warnanya?",
+      //   a: ["Merah", "Hitam"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "22. Ini adalah dewa Rudra, apakah warnanya?",
+      //   a: ["Putih", "Jingga"],
+      //   c: 1,
+      // },
+      // {
+      //   q: "23. Ini adalah dewa Mahadewa, apakah warnanya?",
+      //   a: ["Kuning", "Abu-Abu"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "24. Ini adalah dewa Sangkara, apakah warnanya?",
+      //   a: ["Hijau", "Kuning"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "25. Ini adalah dewa Wisnu, apakah warnanya?",
+      //   a: ["Hitam", "Putih"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "26. Ini adalah dewa Sambhu, apakah warnanya?",
+      //   a: ["Abu-Abu", "Merah Muda"],
+      //   c: 0,
+      // },
+      // {
+      //   q: "27. Ini adalah dewa Siwa, apakah warnanya?",
+      //   a: ["Warna-Warni", "Merah"],
+      //   c: 0,
+      // },
     ],
     color: "orange",
     button: "from-orange-500 to-orange-400",
-    threshold: 21,
+    threshold: 4, //minimal score
     goodTitle: "Pemahamanmu kuat!",
     badTitle: "Mari baca materi lagi!",
   },
@@ -267,12 +302,12 @@ const tkQuizAnswers = {
   q1: "a",
   q2: "b",
   q3: "a",
-  q4: "b",
-  q5: "b",
-  q6: "a",
-  q7: "a",
-  q8: "a",
-  q9: "a",
+  q4: "a",
+  q5: "a",
+  // q6: "a",
+  // q7: "a",
+  // q8: "a",
+  // q9: "a",
 };
 
 // Evaluasi TK memakai kata kunci. Semakin banyak kata kunci cocok,
@@ -280,62 +315,54 @@ const tkQuizAnswers = {
 const tkEvaluationKey = {
   q1: {
     keywords: [
-      "putih",
-      "merah muda",
-      "merah",
-      "jingga",
-      "kuning",
-      "hijau",
-      "hitam",
-      "biru",
-      "panca warna",
+      "Kucing",
+      "Ayam",
+      "Ikan",
+      "Bebek",
+      "Kuda",
+      "Sapi",
+      "Cerah",
+      "Hujan",
+      "Mendung"
     ],
-    points: 4,
+    points: 9,
   },
-  q2: {
-    keywords: [
-      ["satu", 1, "one", "sake"],
-      ["dua", 2, "two", "due"],
-      ["tiga", 3, "three", "telu"],
-      ["empat", 4, "four"],
-      ["lima", 5, "five", "lime"],
-      ["enam", 6, "six", "enem"],
-      ["tujuh", 7, "seven", "pitu", "pituq"],
-      ["delapan", 8, "eight", "baluq"],
-      ["sembilan", 9, "nine", "siwaq"],
-    ],
-    points: 6,
-  },
+  // q2: {
+  //   keywords: [
+  //     ["satu", 1, "one", "sake"],
+  //     ["dua", 2, "two", "due"],
+  //     ["tiga", 3, "three", "telu"],
+  //     ["empat", 4, "four"],
+  //     ["lima", 5, "five", "lime"],
+  //     ["enam", 6, "six", "enem"],
+  //     ["tujuh", 7, "seven", "pitu", "pituq"],
+  //     ["delapan", 8, "eight", "baluq"],
+  //     ["sembilan", 9, "nine", "siwaq"],
+  //   ],
+  //   points: 6,
+  // },
 };
 
 const smaEvaluationKey = {
   q1: {
     keywords: [
-      "bajra",
-      "nagapasa",
-      "gada",
-      "moksala",
-      "angkus",
-      "cakra",
-      ["trisula", "tri sula"],
-      "padma",
+     "Menggunakan password yang kuat", "Menggunakan sandi yang kuat"
     ],
-    points: 5,
+    points: 100,
   },
-  q2: {
-    keywords: [
-      ["putih", "kesucian", "kejujuran", "jujur"],
-      ["merah muda", "kasih sayang"],
-      ["merah", "semangat"],
-      ["jingga", "keberanian", "berani"],
-      ["kuning", "kebijaksanaan", "bijaksana"],
-      ["hijau", "kepedulian", "peduli"],
-      ["hitam", "tanggung jawab", "bertanggung jawab"],
-      ["biru", "ketenangan", "tenang"],
-      ["panca warna", "keseimbangan", "seimbang"],
-    ],
-    points: 5,
-  },
+  // q2: {
+  //   keywords: [
+  //     ["putih", "kesucian", "kejujuran", "jujur"],
+  //     ["merah muda", "kasih sayang"],
+  //     ["merah", "semangat"],
+  //     ["jingga", "keberanian", "berani"],
+  //     ["kuning", "kebijaksanaan", "bijaksana"],
+  //     ["hijau", "kepedulian", "peduli"],
+  //     ["hitam", "tanggung jawab", "bertanggung jawab"],
+  //     ["biru", "ketenangan", "tenang"],
+  //     ["panca warna", "keseimbangan", "seimbang"],
+  //   ],
+  // },
 };
 
 // Evaluasi SD memakai kata kunci untuk nama-nama arah mata angin (9 arah).
@@ -343,25 +370,17 @@ const sdEvaluationKey = {
   q1: {
     keywords: [
       // 1. Timur
-      "Timur",
+      "Merkurius",
       // 2. Tenggara
-      "Tenggara",
-      // 3. Selatan
-      "Tenggara",
-      // 4. Barat Daya
-      "Barat Daya",
-      // 5. Barat
-      "Barat",
-      // 6. Barat Laut
-      "Barat Laut",
-      // 7. Utara
-      "Utara",
-      // 8. Timur Laut
-      "Timur Laut",
-      // 9. Tengah
-      "Tengah",
+      "Venus",
+      "Bumi",
+      "Mars",
+      "Jupiter",
+      "Saturnus",
+      "Uranus",
+      "Neptunus",
     ],
-    points: 9,
+    points: 8,
   },
 };
 
@@ -370,17 +389,9 @@ const smpEvaluationKey = {
   q1: {
     keywords: [
       // Isi kunci jawaban di sini, contoh: "iswara", "brahma", "wisnu", dll. (9 elemen)
-      "Iswara",
-      "Maheswar",
-      "Brahma",
-      "Rudra",
-      "Mahadewa",
-      "Sangkara",
-      "Wisnu",
-      "Samblu",
-      "Siwa",
+      "Biotik",
     ],
-    points: 9,
+    points: 100,
   },
 };
 
@@ -547,7 +558,7 @@ function initTkQuiz() {
     event.preventDefault();
     let score = 0;
 
-    for (let i = 1; i <= 9; i++) {
+    for (let i = 1; i <= 5; i++) {
       const questionName = `q${i}`;
       const selected = document.querySelector(
         `input[name="${questionName}"]:checked`,
@@ -562,9 +573,9 @@ function initTkQuiz() {
     setText("resultIcon", score >= 8 ? "⭐⭐⭐" : score >= 5 ? "⭐⭐" : "⭐");
     setText(
       "resultText",
-      `Kamu mendapat ${score}/9 jawaban benar! ${
-        score >= 7
-          ? "Kamu anak Hindu yang hebat! 🙏"
+      `Kamu mendapat ${score}/5 jawaban benar! ${
+        score >= 3
+          ? "Mantap Kamu Hebat! 🙏"
           : "Belajar lagi yuk, pasti bisa! 💪"
       }`,
     );
@@ -610,11 +621,11 @@ function showTkEvaluationResult(form) {
   if (score >= 7) {
     setText("resultIcon", "⭐⭐⭐");
     setText("resultTitle", "Pintar Sekali!");
-    setText("resultText", `Kamu mendapat ${score}/10! Kamu anak Hindu hebat!`);
+    setText("resultText", `Kamu mendapat ${score}/9! Kamu hebat!`);
   } else {
     setText("resultIcon", "⭐⭐");
     setText("resultTitle", "Bagus!");
-    setText("resultText", `Kamu mendapat ${score}/10! Belajar lagi yuk!`);
+    setText("resultText", `Kamu mendapat ${score}/9! Belajar lagi yuk!`);
   }
 
   showResult();
@@ -622,7 +633,7 @@ function showTkEvaluationResult(form) {
 
 function showSmaEvaluationResult(form) {
   const score = calculateSmaEvaluationScore(form);
-  const maxScore = smaEvaluationKey.q1.points + smaEvaluationKey.q2.points;
+  // const maxScore = smaEvaluationKey.q1.points;
   const title =
     score >= 8
       ? "Pemahamanmu sangat baik!"
@@ -632,7 +643,7 @@ function showSmaEvaluationResult(form) {
 
   setResultText(
     title,
-    `Skor evaluasi kamu ${score}/${maxScore}. ${
+    `Skor evaluasi kamu ${score}/100 ${
       score >= 8
         ? "Kamu sudah mengenali senjata dan nilai karakter Nawa Sangga."
         : "Coba cek kembali materi senjata dewata dan makna warna Nawa Sangga."
@@ -653,8 +664,8 @@ function showSdEvaluationResult(form) {
 
   setResultText(
     title,
-    `Kamu mendapat ${score}/9 jawaban benar! ${
-      score >= 7
+    `Kamu mendapat ${score}/8 jawaban benar! ${
+      score >= 4
         ? "Kamu anak Hindu yang hebat! 🙏"
         : "Belajar lagi yuk, pasti bisa! 💪"
     }`,
@@ -666,7 +677,7 @@ function showSmpEvaluationResult(form) {
   const score = calculateSmpEvaluationScore(form);
 
   const title =
-    score >= 7
+    score >= 100
       ? "Pemahamanmu sangat baik!"
       : score >= 4
         ? "Jawabanmu sudah cukup baik"
@@ -674,10 +685,10 @@ function showSmpEvaluationResult(form) {
 
   setResultText(
     title,
-    `Kamu mendapat ${score}/9 jawaban benar! ${
+    `Kamu mendapat ${score}/100 jawaban benar! ${
       score >= 7
-        ? "Kamu sudah mengenali para dewata penjaga mata angin."
-        : "Coba ulang jawabanmu dan perhatikan nama-nama dewa penjaga."
+        ? "Yuk Belajar Lagi"
+        : "Jangan Menyerah"
     }`,
   );
   showResult();
@@ -698,38 +709,39 @@ function calculateSmpEvaluationScore(form) {
 function calculateTkEvaluationScore(form) {
   const formData = new FormData(form);
   const q1Answer = formData.get("q1") || "";
-  const q2Answer = formData.get("q2") || "";
+  // const q2Answer = formData.get("q2") || "";
 
   return (
     getKeywordScore(
       q1Answer,
       tkEvaluationKey.q1.keywords,
       tkEvaluationKey.q1.points,
-    ) +
-    getKeywordScore(
-      q2Answer,
-      tkEvaluationKey.q2.keywords,
-      tkEvaluationKey.q2.points,
     )
+    // getKeywordScore(
+    //   q2Answer,
+    //   tkEvaluationKey.q2.keywords,
+    //   tkEvaluationKey.q2.points,
+    // )
   );
 }
 
 function calculateSmaEvaluationScore(form) {
   const formData = new FormData(form);
   const q1Answer = formData.get("q1") || "";
-  const q2Answer = formData.get("q2") || "";
+  // const q2Answer = formData.get("q2") || "";
 
   return (
     getKeywordScore(
       q1Answer,
       smaEvaluationKey.q1.keywords,
       smaEvaluationKey.q1.points,
-    ) +
-    getKeywordScore(
-      q2Answer,
-      smaEvaluationKey.q2.keywords,
-      smaEvaluationKey.q2.points,
     )
+    // +
+    // getKeywordScore(
+    //   q2Answer,
+    //   smaEvaluationKey.q2.keywords,
+    //   smaEvaluationKey.q2.points,
+    // )
   );
 }
 
