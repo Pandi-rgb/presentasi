@@ -8,95 +8,30 @@
 // q = pertanyaan, a = pilihan jawaban, c = index jawaban benar.
 const sharedDewataQuestions = [
   {
-    q: "1. 🌞 Apa pusat tata surya?",
-    a: ["Bulan", "Matahari"],
+    q: "Orang yang mengajar di sekolah adalah ...",
+    a: ["Petani", "Guru"],
     c: 1,
   },
   {
-    q: "2. 🪐 Planet bercincin terkenal adalah...",
-    a: ["Saturnus", "Merkurius"],
+    q: "Kita harus hidup ... dengan keluarga",
+    a: ["Rukun", "Bertengkar"],
     c: 0,
   },
   {
-    q: "3. 🌱 Menanam pohon membantu menjaga...",
-    a: ["Lingkungan", "Mainan"],
+    q: "Membersihkan kelas bersama disebut...",
+    a: ["Gotong royong", "Bermain"],
     c: 0,
   },
   {
-    q: "4. 💧 Kita harus menggunakan air dengan...",
-    a: ["Boros", "Hemat"],
+    q: "Ayah dan ibu adalah anggota...",
+    a: ["Sekolah", "Keluarga"],
     c: 1,
   },
   {
-    q: "5. 🗑️ Sampah sebaiknya dibuang ke...",
-    a: ["Sungai", "Tempat sampah"],
+    q: "Petani bekerja di...",
+    a: ["Laut", "Sawah"],
     c: 1,
   },
-  // {
-  //   q: "6. Ini adalah arah barat laut, dewa siapakah di barat laut?",
-  //   a: ["Dewa sangkara", "Dewa iswara"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "7. Ini adalah arah utara, dewa siapakah di utara?",
-  //   a: ["Dewa brahma", "Dewa wisnu"],
-  //   c: 1,
-  // },
-  // {
-  //   q: "8. Ini adalah arah timur laut, dewa siapakah di timur laut?",
-  //   a: ["Dewa sambhu", "Dewa maheswara"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "9. Ini adalah tengah, dewa siapakah di tengah?",
-  //   a: ["Dewa brahma", "Dewa siwa"],
-  //   c: 1,
-  // },
-  // {
-  //   q: "10. Ini adalah dewa iswara, apakah warnanya?",
-  //   a: ["Merah", "Putih"],
-  //   c: 1,
-  // },
-  // {
-  //   q: "11. Ini adalah dewa maheswara, apakah warnanya?",
-  //   a: ["Merah Muda", "Kuning"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "12. Ini adalah dewa brahma, apakah warnanya?",
-  //   a: ["Merah", "Hitam"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "13. Ini adalah dewa rudra, apakah warnanya?",
-  //   a: ["Putih", "Jingga"],
-  //   c: 1,
-  // },
-  // {
-  //   q: "14. Ini adalah dewa mahadewa, apakah warnanya?",
-  //   a: ["Kuning", "Abu-Abu"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "15. Ini adalah dewa sangkara, apakah warnanya?",
-  //   a: ["Hijau", "Kuning"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "16. Ini adalah dewa wisnu, apakah warnanya?",
-  //   a: ["Hitam", "Putih"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "17. Ini adalah dewa sambhu, apakah warnanya?",
-  //   a: ["Abu-Abu", "Merah Muda"],
-  //   c: 0,
-  // },
-  // {
-  //   q: "18. Ini adalah dewa siwa, apakah warnanya?",
-  //   a: ["Warna-Warni", "Merah"],
-  //   c: 0,
-  // },
 ];
 
 const quizPages = {
@@ -119,28 +54,28 @@ const quizPages = {
   "page-smp-quiz": {
     questions: [
       {
-        q: "1. 🌞 Cahaya matahari termasuk komponen...",
-        a: ["Biotik", "Abiotik"],
+        q: "Datang tepat waktu ke sekolah termasuk sikap...",
+        a: ["Malas", "Disiplin"],
         c: 1,
       },
       {
-        q: "2. 🌱 Tumbuhan membutuhkan air untuk...",
-        a: ["Hidup", "Bermain"],
+        q: "Kita harus menghormati...",
+        a: ["Guru", "Musuh"],
         c: 0,
       },
       {
-        q: "3. 🗑️ Membuang sampah sembarangan dapat menyebabkan...",
-        a: ["Lingkungan bersih", "Pencemaran"],
+        q: "Agar hidup damai, kita harus...",
+        a: ["Bertengkar", "Rukun"],
         c: 1,
       },
       {
-        q: "4. 🌍 Ekosistem adalah hubungan antara...",
-        a: ["Makhluk hidup dan lingkungannya", "Kendaraan dan jalan"],
+        q: "Mematuhi aturan membuat hidup menjadi...",
+        a: ["Tertib", "Kacau"],
         c: 0,
       },
       {
-        q: "5. 💧 Menghemat air membantu menjaga...",
-        a: ["Lingkungan", "Kemacetan"],
+        q: "Membantu teman adalah contoh sikap...",
+        a: ["Baik", "Jahat"],
         c: 0,
       },
     ],
@@ -178,116 +113,6 @@ const quizPages = {
         a: ["Langsung dibuka", "Dihindari"],
         c: 1,
       },
-      // {
-      //   q: "6. Ini adalah dewa Sangkara, apakah senjatanya?",
-      //   a: ["Angkus", "Cakra"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "7. Ini adalah dewa Wisnu, apakah senjatanya?",
-      //   a: ["Cakra", "Padma"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "8. Ini adalah dewa Sambhu, apakah senjatanya?",
-      //   a: ["Trisula", "Cakra"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "9. Ini adalah dewa Siwa, apakah senjatanya?",
-      //   a: ["Padma", "Gada"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "10. Ini adalah arah timur, dewa siapakah di timur?",
-      //   a: ["Dewa Brahma", "Dewa Iswara"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "11. Ini adalah arah tenggara, dewa siapakah di tenggara?",
-      //   a: ["Dewa Maheswara", "Dewa Wisnu"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "12. Ini adalah arah selatan, dewa siapakah di selatan?",
-      //   a: ["Dewa Wisnu", "Dewa Brahma"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "13. Ini adalah arah barat daya, dewa siapakah di barat daya?",
-      //   a: ["Dewa Mahadewa", "Dewa Rudra"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "14. Ini adalah arah barat, dewa siapakah di barat?",
-      //   a: ["Dewa Siwa", "Dewa Mahadewa"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "15. Ini adalah arah barat laut, dewa siapakah di barat laut?",
-      //   a: ["Dewa Sangkara", "Dewa Iswara"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "16. Ini adalah arah utara, dewa siapakah di utara?",
-      //   a: ["Dewa Brahma", "Dewa Wisnu"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "17. Ini adalah arah timur laut, dewa siapakah di timur laut?",
-      //   a: ["Dewa Sambhu", "Dewa Maheswara"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "18. Ini adalah tengah, dewa siapakah di tengah?",
-      //   a: ["Dewa Brahma", "Dewa Siwa"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "19. Ini adalah dewa Iswara, apakah warnanya?",
-      //   a: ["Merah", "Putih"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "20. Ini adalah dewa Maheswara, apakah warnanya?",
-      //   a: ["Merah Muda", "Kuning"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "21. Ini adalah dewa Brahma, apakah warnanya?",
-      //   a: ["Merah", "Hitam"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "22. Ini adalah dewa Rudra, apakah warnanya?",
-      //   a: ["Putih", "Jingga"],
-      //   c: 1,
-      // },
-      // {
-      //   q: "23. Ini adalah dewa Mahadewa, apakah warnanya?",
-      //   a: ["Kuning", "Abu-Abu"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "24. Ini adalah dewa Sangkara, apakah warnanya?",
-      //   a: ["Hijau", "Kuning"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "25. Ini adalah dewa Wisnu, apakah warnanya?",
-      //   a: ["Hitam", "Putih"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "26. Ini adalah dewa Sambhu, apakah warnanya?",
-      //   a: ["Abu-Abu", "Merah Muda"],
-      //   c: 0,
-      // },
-      // {
-      //   q: "27. Ini adalah dewa Siwa, apakah warnanya?",
-      //   a: ["Warna-Warni", "Merah"],
-      //   c: 0,
-      // },
     ],
     color: "orange",
     button: "from-orange-500 to-orange-400",
@@ -304,10 +129,6 @@ const tkQuizAnswers = {
   q3: "a",
   q4: "a",
   q5: "a",
-  // q6: "a",
-  // q7: "a",
-  // q8: "a",
-  // q9: "a",
 };
 
 // Evaluasi TK memakai kata kunci. Semakin banyak kata kunci cocok,
@@ -321,66 +142,59 @@ const tkEvaluationKey = {
       "Bebek",
       "Kuda",
       "Sapi",
-      "Cerah",
-      "Hujan",
-      "Mendung"
+      "Domba",
+      "Kelinci",
+      "Burung",
     ],
-    points: 9,
+    points: 50,
   },
-  // q2: {
-  //   keywords: [
-  //     ["satu", 1, "one", "sake"],
-  //     ["dua", 2, "two", "due"],
-  //     ["tiga", 3, "three", "telu"],
-  //     ["empat", 4, "four"],
-  //     ["lima", 5, "five", "lime"],
-  //     ["enam", 6, "six", "enem"],
-  //     ["tujuh", 7, "seven", "pitu", "pituq"],
-  //     ["delapan", 8, "eight", "baluq"],
-  //     ["sembilan", 9, "nine", "siwaq"],
-  //   ],
-  //   points: 6,
-  // },
+  q2: {
+    keywords: ["Cerah", "Hujan", "Mendung", "Badai"],
+    points: 50,
+  },
 };
 
 const smaEvaluationKey = {
   q1: {
-    keywords: [
-     "Menggunakan password yang kuat", "Menggunakan sandi yang kuat"
-    ],
+    keywords: ["Menggunakan password yang kuat", "Menggunakan sandi yang kuat", "Memilih password yang sulit ditebak", "Menggunakan kombinasi huruf, angka, dan simbol", "Tidak menggunakan informasi pribadi sebagai password", "Rutin mengganti password", "Tidak membagikan password kepada orang lain", "Memanfaatkan autentikasi dua faktor", "Memastikan situs web aman sebelum memasukkan password", "Tidak menggunakan password yang sama untuk banyak akun", "Menggunakan manajer password untuk menyimpan password dengan aman"],
     points: 100,
   },
-  // q2: {
-  //   keywords: [
-  //     ["putih", "kesucian", "kejujuran", "jujur"],
-  //     ["merah muda", "kasih sayang"],
-  //     ["merah", "semangat"],
-  //     ["jingga", "keberanian", "berani"],
-  //     ["kuning", "kebijaksanaan", "bijaksana"],
-  //     ["hijau", "kepedulian", "peduli"],
-  //     ["hitam", "tanggung jawab", "bertanggung jawab"],
-  //     ["biru", "ketenangan", "tenang"],
-  //     ["panca warna", "keseimbangan", "seimbang"],
-  //   ],
-  // },
 };
 
 // Evaluasi SD memakai kata kunci untuk nama-nama arah mata angin (9 arah).
 const sdEvaluationKey = {
   q1: {
     keywords: [
-      // 1. Timur
-      "Merkurius",
-      // 2. Tenggara
-      "Venus",
-      "Bumi",
-      "Mars",
-      "Jupiter",
-      "Saturnus",
-      "Uranus",
-      "Neptunus",
+      "Ayah",
+      "Ibu",
+      "Kakak",
+      "Adik",
+      "Paman",
+      "Bibi",
+      "Kakek",
+      "Nenek",
     ],
-    points: 8,
+    points: 50,
+  },
+  q2: {
+    keywords: [
+      "Petani",
+      "Dokter",
+      "Guru",
+      "Polisi",
+      "Pemadam kebakaran",
+      "Perawat",
+      "Pengemudi",
+      "Tukang",
+      "Pedagang",
+      "Seniman",
+      "Musisi",
+      "Atlet",
+      "Ilmuwan",
+      "Insinyur",
+      "Pekerja sosial",
+    ],
+    points: 50,
   },
 };
 
@@ -388,10 +202,35 @@ const sdEvaluationKey = {
 const smpEvaluationKey = {
   q1: {
     keywords: [
-      // Isi kunci jawaban di sini, contoh: "iswara", "brahma", "wisnu", dll. (9 elemen)
-      "Biotik",
+      "Datang tepat waktu",
+      "Memakai seragam rapi",
+      "Mengerjakan tugas dengan baik",
+      "Berperilaku sopan",
+      "Menghormati guru dan teman",
+      "Mendengarkan guru saat belajar",
     ],
-    points: 100,
+    points: 50,
+  },
+  // kata kunci sikap rukun
+  q2: {
+    keywords: [
+      "Saling membantu",
+      "Saling menghormati",
+      "Saling mendukung",
+      "Saling memaafkan",
+      "Saling bekerja sama",
+      "Saling menghargai",
+      "Tidak memandang perbedaan",
+      "Menerima perbedaan",
+      "Tidak bertengkar",
+      "Tidak berkelahi",
+      "Tidak membully",
+      "Tidak mengucilkan",
+      "Tidak menyebarkan gosip",
+      "Tidak menyebarkan kebencian",
+      "Saling menolong",
+    ],
+    points: 50,
   },
 };
 
@@ -494,18 +333,34 @@ function initGeneratedQuiz() {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const score = pageConfig.questions.reduce((total, item, index) => {
+    // 1. Hitung berapa banyak jawaban yang benar
+    const totalCorrect = pageConfig.questions.reduce((total, item, index) => {
       const selected = document.querySelector(
         `input[name="q${index}"]:checked`,
       );
       return selected && Number(selected.value) === item.c ? total + 1 : total;
     }, 0);
 
+    const totalQuestions = pageConfig.questions.length;
+
+    // 2. Rumus Sakti: Hitung skor skala 0-100
+    const finalScore =
+      totalQuestions > 0
+        ? Math.round((totalCorrect / totalQuestions) * 100)
+        : 0;
+
+    // 3. Tentukan batas kelulusan (Contoh: jika threshold dinamis, atau pasang standar bawaan 70-80%)
+    // Kita asumsikan jika benar minimal sesuai config threshold, dia lulus.
+    // Atau jika mau dipukul rata, bisa pakai: finalScore >= 75
+    const minimalScoreNeeded =
+      totalQuestions > 0 ? (pageConfig.threshold / totalQuestions) * 100 : 75;
+
+    // 4. Tampilkan hasil dengan format skor baru
     setResultText(
-      score >= pageConfig.threshold
+      finalScore >= minimalScoreNeeded
         ? pageConfig.goodTitle
         : pageConfig.badTitle,
-      `Skor kamu ${score}/${pageConfig.questions.length}.`,
+      `Skor kamu ${finalScore}/100. (Benar ${totalCorrect} dari ${totalQuestions} soal)`,
     );
     showResult();
   });
@@ -556,25 +411,43 @@ function initTkQuiz() {
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    let score = 0;
+    let correctAnswers = 0;
 
-    for (let i = 1; i <= 5; i++) {
+    // 1. Hitung total soal secara dinamis berdasarkan data kunci jawaban
+    const totalQuestions = Object.keys(tkQuizAnswers).length;
+
+    // 2. Periksa jawaban yang benar
+    for (let i = 1; i <= totalQuestions; i++) {
       const questionName = `q${i}`;
       const selected = document.querySelector(
         `input[name="${questionName}"]:checked`,
       );
       if (selected && selected.value === tkQuizAnswers[questionName]) {
-        score++;
+        correctAnswers++;
       }
     }
 
-    setText("resultScore", score);
-    setText("resultTitle", score >= 7 ? "Pintar Sekali! 🌟" : "Bagus! 👏");
-    setText("resultIcon", score >= 8 ? "⭐⭐⭐" : score >= 5 ? "⭐⭐" : "⭐");
+    // 3. Rumus Sakti: Berapapun soalnya, nilai maksimal tetap 100
+    const finalScore =
+      totalQuestions > 0
+        ? Math.round((correctAnswers / totalQuestions) * 100)
+        : 0;
+
+    // 4. Atur teks hasil berdasarkan skor skala 0-100
+    setText("resultScore", finalScore);
+    setText(
+      "resultTitle",
+      finalScore >= 80 ? "Pintar Sekali! 🌟" : "Bagus! 👏",
+    );
+    setText(
+      "resultIcon",
+      finalScore >= 80 ? "⭐⭐⭐" : finalScore >= 50 ? "⭐⭐" : "⭐",
+    );
+
     setText(
       "resultText",
-      `Kamu mendapat ${score}/5 jawaban benar! ${
-        score >= 3
+      `Skor kamu ${finalScore}/100. (Benar ${correctAnswers} dari ${totalQuestions} soal) ${
+        finalScore >= 60
           ? "Mantap Kamu Hebat! 🙏"
           : "Belajar lagi yuk, pasti bisa! 💪"
       }`,
@@ -618,14 +491,21 @@ function initEvaluation() {
 function showTkEvaluationResult(form) {
   const score = calculateTkEvaluationScore(form);
 
-  if (score >= 7) {
+  if (score >= 70) {
     setText("resultIcon", "⭐⭐⭐");
     setText("resultTitle", "Pintar Sekali!");
-    setText("resultText", `Kamu mendapat ${score}/9! Kamu hebat!`);
-  } else {
+    setText("resultText", `Kamu mendapat ${score}/100! Kamu hebat!`);
+  } else if (score >= 50) {
     setText("resultIcon", "⭐⭐");
+    setText("resultTitle", "Lumayan!");
+    setText(
+      "resultText",
+      `Kamu mendapat ${score}/100! Ayo belajar lagi untuk jadi lebih hebat!`,
+    );
+  } else {
+    setText("resultIcon", "⭐");
     setText("resultTitle", "Bagus!");
-    setText("resultText", `Kamu mendapat ${score}/9! Belajar lagi yuk!`);
+    setText("resultText", `Kamu mendapat ${score}/100! Belajar lagi yuk!`);
   }
 
   showResult();
@@ -634,126 +514,184 @@ function showTkEvaluationResult(form) {
 function showSmaEvaluationResult(form) {
   const score = calculateSmaEvaluationScore(form);
   // const maxScore = smaEvaluationKey.q1.points;
-  const title =
-    score >= 8
-      ? "Pemahamanmu sangat baik!"
-      : score >= 5
-        ? "Jawabanmu sudah cukup baik"
-        : "Ayo lengkapi lagi jawabanmu";
-
-  setResultText(
-    title,
-    `Skor evaluasi kamu ${score}/100 ${
-      score >= 8
-        ? "Kamu sudah mengenali senjata dan nilai karakter Nawa Sangga."
-        : "Coba cek kembali materi senjata dewata dan makna warna Nawa Sangga."
-    }`,
-  );
+  if (score >= 70) {
+    setText("resultIcon", "⭐⭐⭐");
+    setText("resultTitle", "Pintar Sekali!");
+    setText("resultText", `Kamu mendapat ${score}/100! Kamu hebat!`);
+  } else if (score >= 50) {
+    setText("resultIcon", "⭐⭐");
+    setText("resultTitle", "Lumayan!");
+    setText(
+      "resultText",
+      `Kamu mendapat ${score}/100! Ayo belajar lagi untuk jadi lebih hebat!`,
+    );
+  } else {
+    setText("resultIcon", "⭐");
+    setText("resultTitle", "Bagus!");
+    setText("resultText", `Kamu mendapat ${score}/100! Belajar lagi yuk!`);
+  }
   showResult();
 }
 
 function showSdEvaluationResult(form) {
   const score = calculateSdEvaluationScore(form);
 
-  const title =
-    score >= 7
-      ? "Pemahamanmu sangat baik!"
-      : score >= 4
-        ? "Jawabanmu sudah cukup baik"
-        : "Ayo lengkapi lagi jawabanmu";
+  if (score >= 70) {
+    setText("resultIcon", "⭐⭐⭐");
+    setText("resultTitle", "Pintar Sekali!");
+    setText("resultText", `Kamu mendapat ${score}/100! Kamu hebat!`);
+  } else if (score >= 50) {
+    setText("resultIcon", "⭐⭐");
+    setText("resultTitle", "Lumayan!");
+    setText(
+      "resultText",
+      `Kamu mendapat ${score}/100! Ayo belajar lagi untuk jadi lebih hebat!`,
+    );
+  } else {
+    setText("resultIcon", "⭐");
+    setText("resultTitle", "Bagus!");
+    setText("resultText", `Kamu mendapat ${score}/100! Belajar lagi yuk!`);
+  }
 
-  setResultText(
-    title,
-    `Kamu mendapat ${score}/8 jawaban benar! ${
-      score >= 4
-        ? "Kamu anak Hindu yang hebat! 🙏"
-        : "Belajar lagi yuk, pasti bisa! 💪"
-    }`,
-  );
   showResult();
 }
 
 function showSmpEvaluationResult(form) {
   const score = calculateSmpEvaluationScore(form);
 
-  const title =
-    score >= 100
-      ? "Pemahamanmu sangat baik!"
-      : score >= 4
-        ? "Jawabanmu sudah cukup baik"
-        : "Ayo lengkapi lagi jawabanmu";
-
-  setResultText(
-    title,
-    `Kamu mendapat ${score}/100 jawaban benar! ${
-      score >= 7
-        ? "Yuk Belajar Lagi"
-        : "Jangan Menyerah"
-    }`,
-  );
+  if (score >= 70) {
+    setText("resultIcon", "⭐⭐⭐");
+    setText("resultTitle", "Pintar Sekali!");
+    setText("resultText", `Kamu mendapat ${score}/100! Kamu hebat!`);
+  } else if (score >= 50) {
+    setText("resultIcon", "⭐⭐");
+    setText("resultTitle", "Lumayan!");
+    setText(
+      "resultText",
+      `Kamu mendapat ${score}/100! Ayo belajar lagi untuk jadi lebih hebat!`,
+    );
+  } else {
+    setText("resultIcon", "⭐");
+    setText("resultTitle", "Bagus!");
+    setText("resultText", `Kamu mendapat ${score}/100! Belajar lagi yuk!`);
+  }
   showResult();
 }
 
 function calculateSmpEvaluationScore(form) {
   const formData = new FormData(form);
-  const q1Answer = formData.get("q1") || "";
+  
+  // mengambil isi dari textarea
+  const jawabanTunggal = (formData.get("q1") || "").trim().toLowerCase();
 
-  return getKeywordScore(
-    q1Answer,
-    smpEvaluationKey.q1.keywords,
-    smpEvaluationKey.q1.points,
-  );
+  // 1. cari kata kunci contoh aturan sekolah di dalam kolom tersebut
+  const matchAturan = smpEvaluationKey.q1.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 2. cari kata kunci contoh sikap rukun di dalam kolom yang SAMA
+  const matchRukun = smpEvaluationKey.q2.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 3. batasi jumlah maksimal kata yang dihitung (Aturan sekolah maks 2, Sikap rukun maks 2)
+  const efektifAturan = Math.min(matchAturan, 2);
+  const efektifRukun = Math.min(matchRukun, 2);
+
+  // 4. hitung skor proporsional (Masing-masing bernilai maksimal 50 poin)
+  const scoreAturan = Math.round((efektifAturan / 2) * smpEvaluationKey.q1.points);
+  const scoreRukun = Math.round((efektifRukun / 2) * smpEvaluationKey.q2.points);
+
+  // SUDAH DIPERBAIKI: Memanggil nama variabel yang benar
+  return scoreAturan + scoreRukun;
 }
 
 // Menghitung nilai evaluasi TK berdasarkan jawaban textarea.
 function calculateTkEvaluationScore(form) {
   const formData = new FormData(form);
-  const q1Answer = formData.get("q1") || "";
-  // const q2Answer = formData.get("q2") || "";
 
-  return (
-    getKeywordScore(
-      q1Answer,
-      tkEvaluationKey.q1.keywords,
-      tkEvaluationKey.q1.points,
-    )
-    // getKeywordScore(
-    //   q2Answer,
-    //   tkEvaluationKey.q2.keywords,
-    //   tkEvaluationKey.q2.points,
-    // )
-  );
+  // Mengambil isi dari satu-satunya textarea (name="q1")
+  const jawabanTunggal = (formData.get("q1") || "").trim().toLowerCase();
+
+  // 1. Cari kata kunci HEWAN di dalam kolom tersebut
+  const matchHewan = tkEvaluationKey.q1.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 2. Cari kata kunci CUACA di dalam kolom yang SAMA
+  const matchCuaca = tkEvaluationKey.q2.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 3. Batasi jumlah maksimal kata yang dihitung (Hewan maks 3, Cuaca maks 2)
+  const efektifHewan = Math.min(matchHewan, 3);
+  const efektifCuaca = Math.min(matchCuaca, 2);
+
+  // 4. Hitung skor proporsional (Masing-masing bernilai maksimal 50 poin)
+  const scoreHewan = Math.round((efektifHewan / 3) * tkEvaluationKey.q1.points);
+  const scoreCuaca = Math.round((efektifCuaca / 2) * tkEvaluationKey.q2.points);
+
+  // SUDAH DIPERBAIKI: Memanggil nama variabel yang benar
+  return scoreHewan + scoreCuaca;
 }
 
 function calculateSmaEvaluationScore(form) {
   const formData = new FormData(form);
-  const q1Answer = formData.get("q1") || "";
-  // const q2Answer = formData.get("q2") || "";
+  // const formData = new FormData(form);
 
-  return (
-    getKeywordScore(
-      q1Answer,
-      smaEvaluationKey.q1.keywords,
-      smaEvaluationKey.q1.points,
-    )
-    // +
-    // getKeywordScore(
-    //   q2Answer,
-    //   smaEvaluationKey.q2.keywords,
-    //   smaEvaluationKey.q2.points,
-    // )
-  );
+  // Mengambil isi dari satu-satunya textarea (name="q1")
+  const jawabanTunggal = (formData.get("q1") || "").trim().toLowerCase();
+
+  // 1. Cari kata kunci Keamanan akun di dalam kolom tersebut
+  const matchAkun = smaEvaluationKey.q1.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 2. Cari kata kunci CUACA di dalam kolom yang SAMA
+  // const matchCuaca = tkEvaluationKey.q2.keywords.filter((keyword) =>
+  //   jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  // ).length;
+
+  // 3. Batasi jumlah maksimal kata yang dihitung (keamanan akun maks 1)
+  const efektifAkun = Math.min(matchAkun, 1);
+  // const efektifCuaca = Math.min(matchCuaca, 2);
+
+  // 4. Hitung skor proporsional (Masing-masing bernilai maksimal 50 poin)
+  const scoreAkun = Math.round((efektifAkun / 1) * smaEvaluationKey.q1.points);
+  // const scoreCuaca = Math.round((efektifCuaca / 2) * tkEvaluationKey.q2.points);
+
+  // SUDAH DIPERBAIKI: Memanggil nama variabel yang benar
+  return scoreAkun; // + scoreCuaca;
 }
 
 function calculateSdEvaluationScore(form) {
   const formData = new FormData(form);
-  const q1Answer = formData.get("q1") || "";
 
-  return getKeywordScore(
-    q1Answer,
-    sdEvaluationKey.q1.keywords,
-    sdEvaluationKey.q1.points,
+  // mengambil isi dari textarea
+  const jawabanTunggal = (formData.get("q1") || "").trim().toLowerCase();
+
+  // 1. Cari kata kunci anggota keluarga di dalam kolom tersebut
+  const matchKeluarga = sdEvaluationKey.q1.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 2. Cari kata kunci pekerjaan di dalam kolom yang SAMA
+  const matchKerja = sdEvaluationKey.q2.keywords.filter((keyword) =>
+    jawabanTunggal.includes(keyword.trim().toLowerCase()),
+  ).length;
+
+  // 3. Batasi jumlah maksimal kata yang dihitung (Keluarga maks 3, Pekerjaan maks 2)
+  const efektifKeluarga = Math.min(matchKeluarga, 3);
+  const efektifKerja = Math.min(matchKerja, 2);
+
+  // 4. Hitung skor proporsional (Masing-masing bernilai maksimal 50 poin)
+  const scoreKeluarga = Math.round(
+    (efektifKeluarga / 3) * sdEvaluationKey.q1.points,
   );
+  const scoreKerja = Math.round((efektifKerja / 2) * sdEvaluationKey.q2.points);
+
+  // SUDAH DIPERBAIKI: Memanggil nama variabel yang benar
+  return scoreKeluarga + scoreKerja;
 }
 
 // Mengubah jumlah kata kunci yang cocok menjadi skor.
